@@ -1,10 +1,10 @@
 import { useState, ReactNode } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, ArrowRight, ExternalLink, Send, HandHeart, FileText, Sparkles } from "lucide-react";
 import { Helmet } from "react-helmet";
-
-type Language = "en" | "ru";
+import { siteContent, languages, buildRoute } from "../i18n";
+import { Language } from "../types";
 
 function HyperboloidLogo({ className }: { className?: string }) {
   return (
@@ -53,21 +53,33 @@ function HyperboloidLogo({ className }: { className?: string }) {
   );
 }
 
-const navItems = [
-  { path: "/", labelEn: "Home", labelRu: "Главная" },
-  { path: "/research", labelEn: "Research", labelRu: "Исследования" },
-  { path: "/roadmap", labelEn: "Roadmap", labelRu: "План" },
-  { path: "/publications", labelEn: "Publications", labelRu: "Публикации" },
-  { path: "/governance", labelEn: "Governance", labelRu: "Управление" },
-  { path: "/contact", labelEn: "Contact", labelRu: "Контакты" },
-];
+const navPaths = ["/", "/research", "/roadmap", "/publications", "/governance", "/contact"];
+
+function getNavItems(lang: Language) {
+  const menu = siteContent.labels[lang].menu;
+  return navPaths.map((path) => ({
+    path,
+    label: path === "/" ? siteContent.ui.homeLabel[lang] : menu[path.slice(1)],
+  }));
+}
 
 const stripeDonationLink = "https://donate.stripe.com";
 
 export function Layout({ children, lang, setLang }: { children: ReactNode; lang: Language; setLang: (l: Language) => void }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const isEn = lang === "en";
+  const navItems = getNavItems(lang);
+  const languageRegex = new RegExp(`^/(${languages.join("|")})`);
+
+  const switchLanguage = (newLang: Language) => {
+    const nextPath = location.pathname.replace(languageRegex, `/${newLang}`);
+    setLang(newLang);
+    navigate(nextPath);
+  };
+
+  const buildPath = (path: string) => buildRoute(lang, path);
 
   return (
     <div className="relative bg-[#050505] text-white min-h-screen font-sans selection:bg-brand-accent selection:text-white">
@@ -96,7 +108,7 @@ export function Layout({ children, lang, setLang }: { children: ReactNode; lang:
       </div>
 
       <header className="fixed top-0 left-0 right-0 p-4 md:p-8 flex justify-between items-center z-[200] backdrop-blur-3xl bg-black/10 border-b border-white/5">
-        <Link to="/" className="flex items-center gap-5 cursor-pointer group">
+        <Link to={buildPath("/")} className="flex items-center gap-5 cursor-pointer group">
           <HyperboloidLogo className="w-14 h-16 group-hover:scale-105 transition-transform duration-500" />
           <div className="flex flex-col">
             <span className="font-display font-black text-2xl md:text-3xl tracking-[-0.05em] uppercase leading-tight text-white">
@@ -110,7 +122,7 @@ export function Layout({ children, lang, setLang }: { children: ReactNode; lang:
 
         <div className="flex items-center gap-4 md:gap-8">
           <button
-            onClick={() => setLang(isEn ? "ru" : "en")}
+            onClick={() => switchLanguage(isEn ? "ru" : "en")}
             className="hidden md:flex px-4 py-2 bg-white/5 border border-white/10 rounded-full text-[10px] font-black tracking-widest hover:bg-white/10 transition-all uppercase"
           >
             {isEn ? "RU" : "EN"}
@@ -138,11 +150,11 @@ export function Layout({ children, lang, setLang }: { children: ReactNode; lang:
                 {navItems.map((item, i) => (
                   <motion.div key={item.path} initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.1 }}>
                     <Link
-                      to={item.path}
+                      to={buildPath(item.path)}
                       onClick={() => setMenuOpen(false)}
-                      className={`text-5xl md:text-8xl font-display font-black uppercase text-left tracking-tighter hover:text-brand-accent transition-colors hover:italic ${location.pathname === item.path ? "text-brand-accent italic" : ""}`}
+                      className={`text-5xl md:text-8xl font-display font-black uppercase text-left tracking-tighter hover:text-brand-accent transition-colors hover:italic ${location.pathname === buildPath(item.path) ? "text-brand-accent italic" : ""}`}
                     >
-                      {isEn ? item.labelEn : item.labelRu}
+                      {item.label}
                     </Link>
                   </motion.div>
                 ))}
@@ -157,12 +169,15 @@ export function Layout({ children, lang, setLang }: { children: ReactNode; lang:
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <button onClick={() => setLang("en")} className={`text-xl font-bold ${isEn ? "text-brand-accent" : "text-gray-600"}`}>
-                    EN
-                  </button>
-                  <button onClick={() => setLang("ru")} className={`text-xl font-bold ${!isEn ? "text-brand-accent" : "text-gray-600"}`}>
-                    RU
-                  </button>
+                  {languages.map((language) => (
+                    <button
+                      key={language}
+                      onClick={() => switchLanguage(language)}
+                      className={`text-xl font-bold ${lang === language ? "text-brand-accent" : "text-gray-600"}`}
+                    >
+                      {language.toUpperCase()}
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>
@@ -191,10 +206,10 @@ export function Layout({ children, lang, setLang }: { children: ReactNode; lang:
           <div className="space-y-4">
             <div className="text-[10px] uppercase tracking-[0.35em] text-brand-accent font-black">{isEn ? "Activities" : "Активности"}</div>
             <div className="space-y-3 text-sm text-gray-300">
-              <a className="flex items-center gap-3 hover:text-brand-accent" href="/research"><Sparkles className="w-4 h-4" />{isEn ? "Research requests" : "Запросы на исследования"}</a>
-              <a className="flex items-center gap-3 hover:text-brand-accent" href="/contact"><Send className="w-4 h-4" />{isEn ? "News & reports subscription" : "Подписка на новости и отчеты"}</a>
-              <a className="flex items-center gap-3 hover:text-brand-accent" href="/governance"><FileText className="w-4 h-4" />{isEn ? "Quarterly report request" : "Запрос квартального отчета"}</a>
-              <a className="flex items-center gap-3 hover:text-brand-accent" href="/contact"><HandHeart className="w-4 h-4" />{isEn ? "Charity and sponsorship" : "Благотворительность и спонсорство"}</a>
+              <a className="flex items-center gap-3 hover:text-brand-accent" href={buildPath('/research')}><Sparkles className="w-4 h-4" />{isEn ? "Research requests" : "Запросы на исследования"}</a>
+              <a className="flex items-center gap-3 hover:text-brand-accent" href={buildPath('/contact')}><Send className="w-4 h-4" />{isEn ? "News & reports subscription" : "Подписка на новости и отчеты"}</a>
+              <a className="flex items-center gap-3 hover:text-brand-accent" href={buildPath('/governance')}><FileText className="w-4 h-4" />{isEn ? "Quarterly report request" : "Запрос квартального отчета"}</a>
+              <a className="flex items-center gap-3 hover:text-brand-accent" href={buildPath('/contact')}><HandHeart className="w-4 h-4" />{isEn ? "Charity and sponsorship" : "Благотворительность и спонсорство"}</a>
             </div>
           </div>
 

@@ -185,6 +185,719 @@
       ]
     }
   },
+  "pages": {
+    "home": {
+      "title": {
+        "en": "Hyperboloid Foundation — Digital Rights Observatory",
+        "ru": "Фонд Hyperboloid — Обсерватория цифровых прав",
+        "nl": "Hyperboloid Stichting — Observatorium digitale rechten",
+        "es": "Fundación Hyperboloid — Observatorio de derechos digitales",
+        "fr": "Fondation Hyperboloid — Observatoire des droits numériques",
+        "de": "Hyperboloid Stiftung — Observatorium digitale Rechte",
+        "pl": "Fundacja Hyperboloid — Obserwatorium praw cyfrowych"
+      },
+      "description": {
+        "en": "Independent research on freedom of speech, digital dignity, and institutional accountability.",
+        "ru": "Независимые исследования о свободе слова, цифровом достоинстве и подотчетности институтов.",
+        "nl": "Onafhankelijk onderzoek naar vrijheid van meningsuiting, digitale waardigheid en institutionele verantwoording.",
+        "es": "Investigación independiente sobre libertad de expresión, dignidad digital y responsabilidad institucional.",
+        "fr": "Recherche indépendante sur la liberté d’expression, la dignité numérique et la responsabilité institutionnelle.",
+        "de": "Unabhängige Forschung zu Meinungsfreiheit, digitaler Würde und institutioneller Verantwortung.",
+        "pl": "Niezależne badania nad wolnością słowa, godnością cyfrową i odpowiedzialnością instytucjonalną."
+      },
+      "ogTitle": {
+        "en": "Hyperboloid Foundation — Digital Rights Observatory",
+        "ru": "Фонд Hyperboloid — Обсерватория цифровых прав",
+        "nl": "Hyperboloid Stichting — Observatorium digitale rechten",
+        "es": "Fundación Hyperboloid — Observatorio de derechos digitales",
+        "fr": "Fondation Hyperboloid — Observatoire des droits numériques",
+        "de": "Hyperboloid Stiftung — Observatorium digitale Rechte",
+        "pl": "Fundacja Hyperboloid — Obserwatorium praw cyfrowych"
+      },
+      "ogDescription": {
+        "en": "Multilingual civic monitoring, research, and reporting on digital freedom across Europe.",
+        "ru": "Мультиязычный гражданский мониторинг, исследования и отчеты о цифровой свободе по всей Европе.",
+        "nl": "Meertalige burgerlijke monitoring, onderzoek en rapportage over digitale vrijheid in heel Europa.",
+        "es": "Monitoreo cívico multilingüe, investigación e informes sobre libertad digital en toda Europa.",
+        "fr": "Surveillance civique multilingue, recherche et rapports sur la liberté numérique en Europe.",
+        "de": "Mehrsprachige zivile Überwachung, Forschung und Berichterstattung über digitale Freiheit in Europa.",
+        "pl": "Wielojęzyczny monitoring obywatelski, badania i raporty o wolności cyfrowej w całej Europie."
+      }
+    },
+    "research": {
+      "title": {
+        "en": "Research - Hyperboloid Stichting",
+        "ru": "Исследования - Hyperboloid Stichting",
+        "nl": "Onderzoek - Hyperboloid Stichting",
+        "es": "Investigación - Hyperboloid Stichting",
+        "fr": "Recherche - Hyperboloid Stichting",
+        "de": "Forschung - Hyperboloid Stiftung",
+        "pl": "Badania - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Priority clusters on digital rights, AI censorship, privacy, and transnational accountability.",
+        "ru": "Приоритетные направления по цифровым правам, цензуре ИИ, приватности и транснациональной подотчетности.",
+        "nl": "Prioritaire clusters over digitale rechten, AI-censuur, privacy en transnationale verantwoording.",
+        "es": "Clústeres prioritarios sobre derechos digitales, censura de IA, privacidad y rendición de cuentas transnacional.",
+        "fr": "Pôles prioritaires sur les droits numériques, la censure IA, la confidentialité et la responsabilité transnationale.",
+        "de": "Prioritäre Cluster zu digitalen Rechten, KI-Zensur, Datenschutz und transnationaler Rechenschaftspflicht.",
+        "pl": "Priorytetowe klastry dotyczące praw cyfrowych, cenzury AI, prywatności i transnarodowej odpowiedzialności."
+      },
+      "heroTitle": {
+        "en": "Priority Research Clusters",
+        "ru": "Приоритетные направления исследований",
+        "nl": "Prioritaire onderzoeksclusters",
+        "es": "Clusters de investigación prioritarios",
+        "fr": "Pôles de recherche prioritaires",
+        "de": "Prioritäre Forschungscluster",
+        "pl": "Priorytetowe klastry badawcze"
+      },
+      "heroLead": {
+        "en": "We combine legal audits, technical investigation, and human rights analysis to map modern censorship.",
+        "ru": "Мы объединяем юридические аудиты, технические расследования и анализ прав человека для картирования современной цензуры.",
+        "nl": "We combineren juridische audits, technisch onderzoek en mensenrechtenanalyse om moderne censuur in kaart te brengen.",
+        "es": "Combinamos auditorías legales, investigación técnica y análisis de derechos humanos para mapear la censura moderna.",
+        "fr": "Nous combinons audits juridiques, enquêtes techniques et analyses des droits de l’homme pour cartographier la censure moderne.",
+        "de": "Wir kombinieren Rechtsprüfungen, technische Untersuchungen und Menschenrechtsanalysen, um moderne Zensur zu kartieren.",
+        "pl": "Łączymy audyty prawne, badania techniczne i analizę praw człowieka, aby mapować nowoczesną cenzurę."
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Rights Monitoring & Freedom of Conscience",
+            "ru": "Мониторинг прав и свобода совести",
+            "nl": "Rechtenmonitoring en vrijheid van geweten",
+            "es": "Monitoreo de derechos y libertad de conciencia",
+            "fr": "Surveillance des droits et liberté de conscience",
+            "de": "Rechtsüberwachung und Gewissensfreiheit",
+            "pl": "Monitorowanie praw i wolność sumienia"
+          },
+          "desc": {
+            "en": "Tracking suppression of high-risk groups through biometric surveillance and policy tools.",
+            "ru": "Отслеживание подавления групп риска через биометрический надзор и политические инструменты.",
+            "nl": "Het volgen van onderdrukking van risicogroepen via biometrisch toezicht en beleidsinstrumenten.",
+            "es": "Seguimiento de la represión de grupos de alto riesgo mediante vigilancia biométrica y herramientas políticas.",
+            "fr": "Suivi de la répression de groupes à haut risque via la surveillance biométrique et les outils politiques.",
+            "de": "Verfolgung der Unterdrückung von Risikogruppen durch biometrische Überwachung und politische Werkzeuge.",
+            "pl": "Śledzenie tłumienia grup wysokiego ryzyka za pomocą nadzoru biometrycznego i narzędzi politycznych."
+          }
+        },
+        {
+          "title": {
+            "en": "Comparative Censorship & Constitutional Drift",
+            "ru": "Сравнительный анализ цензуры и правовой дрейф",
+            "nl": "Vergelijkende censuur en constitutionele drift",
+            "es": "Censura comparativa y deriva constitucional",
+            "fr": "Censure comparative et dérive constitutionnelle",
+            "de": "Vergleichende Zensur und verfassungsrechtliche Drift",
+            "pl": "Porównawcza cenzura i dryf konstytucyjny"
+          },
+          "desc": {
+            "en": "Studying how authoritarian censorship models move from East to West under security rhetoric.",
+            "ru": "Изучение того, как авторитарные модели цензуры переходят с Востока на Запад под риторикой безопасности.",
+            "nl": "Onderzoekt hoe autoritaire censuurmodellen van Oost naar West verschuiven onder veiligheidsretoriek.",
+            "es": "Estudiando cómo los modelos de censura autoritarios se mueven de Este a Oeste bajo retórica de seguridad.",
+            "fr": "Étudier comment les modèles de censure autoritaires passent de l’Est à l’Ouest sous une rhétorique de sécurité.",
+            "de": "Untersuchung, wie autoritäre Zensurmodelle unter Sicherheitsrhetorik von Ost nach West wandern.",
+            "pl": "Badanie, jak autorytarne modele cenzury przesuwają się ze Wschodu na Zachód pod retoryką bezpieczeństwa."
+          }
+        },
+        {
+          "title": {
+            "en": "Supranational Database Integrity",
+            "ru": "Целостность наднациональных баз данных",
+            "nl": "Integriteit van supranationale databases",
+            "es": "Integridad de bases de datos supranacionales",
+            "fr": "Intégrité des bases de données supranationales",
+            "de": "Integrität supranationaler Datenbanken",
+            "pl": "Integralność ponadnarodowych baz danych"
+          },
+          "desc": {
+            "en": "Auditing Interpol, FATF and shared data flows for misuse and political bias.",
+            "ru": "Аудит Интерпола, ФАТФ и общих потоков данных на предмет злоупотреблений и политической предвзятости.",
+            "nl": "Auditing van Interpol, FATF en gedeelde datastromen op misbruik en politieke vooringenomenheid.",
+            "es": "Auditoría de Interpol, FATF y flujos de datos compartidos para detectar abuso y sesgo político.",
+            "fr": "Audit d’Interpol, du GAFI et des flux de données partagés pour détecter les abus et les biais politiques.",
+            "de": "Audit von Interpol, FATF und gemeinsamen Datenströmen auf Missbrauch und politische Voreingenommenheit.",
+            "pl": "Audyt Interpolu, FATF i wspólnych przepływów danych pod kątem nadużyć i uprzedzeń politycznych."
+          }
+        }
+      ]
+    },
+    "publications": {
+      "title": {
+        "en": "Publications - Hyperboloid Stichting",
+        "ru": "Публикации - Hyperboloid Stichting",
+        "nl": "Publicaties - Hyperboloid Stichting",
+        "es": "Publicaciones - Hyperboloid Stichting",
+        "fr": "Publications - Hyperboloid Stichting",
+        "de": "Publikationen - Hyperboloid Stiftung",
+        "pl": "Publikacje - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Scientific papers, reports, and analysis for digital rights defenders.",
+        "ru": "Научные статьи, отчеты и аналитика для защитников цифровых прав.",
+        "nl": "Wetenschappelijke artikelen, rapporten en analyses voor verdedigers van digitale rechten.",
+        "es": "Artículos científicos, informes y análisis para defensores de los derechos digitales.",
+        "fr": "Articles scientifiques, rapports et analyses pour les défenseurs des droits numériques.",
+        "de": "Wissenschaftliche Arbeiten, Berichte und Analysen für Verteidiger digitaler Rechte.",
+        "pl": "Artykuły naukowe, raporty i analizy dla obrońców praw cyfrowych."
+      },
+      "heroTitle": {
+        "en": "Publications",
+        "ru": "Публикации",
+        "nl": "Publicaties",
+        "es": "Publicaciones",
+        "fr": "Publications",
+        "de": "Publikationen",
+        "pl": "Publikacje"
+      },
+      "heroLead": {
+        "en": "Our research outputs are open-access and designed to support advocacy and accountability.",
+        "ru": "Наши исследования открыты и созданы для поддержки адвокации и подотчетности.",
+        "nl": "Onze onderzoeksresultaten zijn open-access en bedoeld om pleitbezorging en verantwoording te ondersteunen.",
+        "es": "Nuestros resultados de investigación son de acceso abierto y diseñados para apoyar la defensa y la rendición de cuentas.",
+        "fr": "Nos résultats de recherche sont en accès libre et conçus pour soutenir le plaidoyer et la responsabilité.",
+        "de": "Unsere Forschungsergebnisse sind Open Access und darauf ausgelegt, Interessenvertretung und Rechenschaftspflicht zu unterstützen.",
+        "pl": "Wyniki naszych badań są otwarte i mają wspierać rzecznictwo oraz odpowiedzialność."
+      },
+      "categories": [
+        {
+          "title": {
+            "en": "Scientific Research",
+            "ru": "Научные исследования",
+            "nl": "Wetenschappelijk onderzoek",
+            "es": "Investigación científica",
+            "fr": "Recherche scientifique",
+            "de": "Wissenschaftliche Forschung",
+            "pl": "Badania naukowe"
+          },
+          "count": {
+            "en": "4 / Year",
+            "ru": "4 / Год",
+            "nl": "4 / Jaar",
+            "es": "4 / Año",
+            "fr": "4 / An",
+            "de": "4 / Jahr",
+            "pl": "4 / Rok"
+          },
+          "desc": {
+            "en": "Deep-dive peer-reviewed papers on network protocols and digital sovereignty.",
+            "ru": "Глубокие рецензируемые статьи о сетевых протоколах и цифровом суверенитете.",
+            "nl": "Diepgaande peer-reviewed artikelen over netwerkprotocollen en digitale soevereiniteit.",
+            "es": "Artículos profundos revisados por pares sobre protocolos de red y soberanía digital.",
+            "fr": "Articles approfondis évalués par des pairs sur les protocoles réseau et la souveraineté numérique.",
+            "de": "Tiefgehende peer-reviewed Artikel über Netzwerkprotokolle und digitale Souveränität.",
+            "pl": "Dogłębne artykuły recenzowane na temat protokołów sieciowych i suwerenności cyfrowej."
+          }
+        },
+        {
+          "title": {
+            "en": "Mini-Investigations",
+            "ru": "Мини-расследования",
+            "nl": "Mini-onderzoeken",
+            "es": "Mini-investigaciones",
+            "fr": "Mini-enquêtes",
+            "de": "Mini-Untersuchungen",
+            "pl": "Mini-śledztwa"
+          },
+          "count": {
+            "en": "6 / Year",
+            "ru": "6 / Год",
+            "nl": "6 / Jaar",
+            "es": "6 / Año",
+            "fr": "6 / An",
+            "de": "6 / Jahr",
+            "pl": "6 / Rok"
+          },
+          "desc": {
+            "en": "Journalistic rapid-response reports and whistleblower insights.",
+            "ru": "Журналистские оперативные отчеты и инсайдерские материалы.",
+            "nl": "Journalistieke snelheidsrapporten en klokkenluidersinzichten.",
+            "es": "Informes periodísticos de respuesta rápida e información de denunciantes.",
+            "fr": "Rapports journalistiques à réponse rapide et éclairages de lanceurs d’alerte.",
+            "de": "Journalistische Schnellberichte und Hinweise von Whistleblowern.",
+            "pl": "Dziennikarskie raporty szybkiego reagowania i informacje od sygnalistów."
+          }
+        },
+        {
+          "title": {
+            "en": "Analytical Longreads",
+            "ru": "Аналитические лонгриды",
+            "nl": "Analytische longreads",
+            "es": "Longreads analíticos",
+            "fr": "Longreads analytiques",
+            "de": "Analytische Longreads",
+            "pl": "Analizy długiego formatu"
+          },
+          "count": {
+            "en": "54 / Year",
+            "ru": "54 / Год",
+            "nl": "54 / Jaar",
+            "es": "54 / Año",
+            "fr": "54 / An",
+            "de": "54 / Jahr",
+            "pl": "54 / Rok"
+          },
+          "desc": {
+            "en": "Weekly in-depth reports linking data, hearings and policy trends.",
+            "ru": "Еженедельные глубокие отчеты, связывающие данные, слушания и политические тренды.",
+            "nl": "Wekelijkse diepgaande rapporten die gegevens, hoorzittingen en politieke trends verbinden.",
+            "es": "Informes semanales en profundidad que vinculan datos, audiencias y tendencias políticas.",
+            "fr": "Rapports hebdomadaires approfondis liant données, auditions et tendances politiques.",
+            "de": "Wöchentliche tiefgehende Berichte, die Daten, Anhörungen und politische Trends verbinden.",
+            "pl": "Cotygodniowe, dogłębne raporty łączące dane, przesłuchania i trendy polityczne."
+          }
+        },
+        {
+          "title": {
+            "en": "Sovereignty Index",
+            "ru": "Индекс суверенитета",
+            "nl": "Soevereiniteitsindex",
+            "es": "Índice de soberanía",
+            "fr": "Indice de souveraineté",
+            "de": "Souveränitätsindex",
+            "pl": "Indeks suwerenności"
+          },
+          "count": {
+            "en": "1 / Year",
+            "ru": "1 / Год",
+            "nl": "1 / Jaar",
+            "es": "1 / Año",
+            "fr": "1 / An",
+            "de": "1 / Jahr",
+            "pl": "1 / Rok"
+          },
+          "desc": {
+            "en": "Annual benchmark on state respect for digital human rights.",
+            "ru": "Ежегодный эталон уважения государством цифровых прав человека.",
+            "nl": "Jaarlijkse benchmark voor staatsrespect voor digitale mensenrechten.",
+            "es": "Referencia anual sobre el respeto estatal a los derechos humanos digitales.",
+            "fr": "Référence annuelle sur le respect étatique des droits humains numériques.",
+            "de": "Jährlicher Benchmark zum staatlichen Respekt digitaler Menschenrechte.",
+            "pl": "Coroczny benchmark dotyczący poszanowania cyfrowych praw człowieka przez państwo."
+          }
+        }
+      ]
+    },
+    "governance": {
+      "title": {
+        "en": "Governance - Hyperboloid Stichting",
+        "ru": "Управление - Hyperboloid Stichting",
+        "nl": "Bestuur - Hyperboloid Stichting",
+        "es": "Gobernanza - Hyperboloid Stichting",
+        "fr": "Gouvernance - Hyperboloid Stichting",
+        "de": "Governance - Hyperboloid Stiftung",
+        "pl": "Zarządzanie - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Foundation structure, ethics and transparency for our digital rights mission.",
+        "ru": "Структура фонда, этика и прозрачность для нашей миссии цифровых прав.",
+        "nl": "Fondstructuur, ethiek en transparantie voor onze missie digitale rechten.",
+        "es": "Estructura de la fundación, ética y transparencia para nuestra misión de derechos digitales.",
+        "fr": "Structure de la fondation, éthique et transparence pour notre mission des droits numériques.",
+        "de": "Stiftungsstruktur, Ethik und Transparenz für unsere Mission digitale Rechte.",
+        "pl": "Struktura fundacji, etyka i przejrzystość dla naszej misji praw cyfrowych."
+      },
+      "heroTitle": {
+        "en": "Governance",
+        "ru": "Управление",
+        "nl": "Bestuur",
+        "es": "Gobernanza",
+        "fr": "Gouvernance",
+        "de": "Governance",
+        "pl": "Zarządzanie"
+      },
+      "heroLead": {
+        "en": "Independent trustees and ethical oversight keep our research accountable.",
+        "ru": "Независимые попечители и этический надзор делают наши исследования подотчетными.",
+        "nl": "Onafhankelijke curatoren en ethisch toezicht houden ons onderzoek verantwoordelijk.",
+        "es": "Los fideicomisarios independientes y la supervisión ética mantienen nuestra investigación responsable.",
+        "fr": "Des administrateurs indépendants et une supervision éthique rendent nos recherches responsables.",
+        "de": "Unabhängige Treuhänder und ethische Aufsicht machen unsere Forschung rechenschaftspflichtig.",
+        "pl": "Niezależni powiernicy i nadzór etyczny zapewniają odpowiedzialność naszych badań."
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "The Board",
+            "ru": "Совет",
+            "nl": "Het bestuur",
+            "es": "El consejo",
+            "fr": "Le conseil",
+            "de": "Der Vorstand",
+            "pl": "Zarząd"
+          },
+          "desc": {
+            "en": "Independent experts provide oversight while preserving research autonomy.",
+            "ru": "Независимые эксперты обеспечивают надзор, сохраняя автономию исследований.",
+            "nl": "Onafhankelijke experts bieden toezicht en behouden tegelijkertijd onderzoeksautonomie.",
+            "es": "Expertos independientes brindan supervisión y preservan la autonomía investigadora.",
+            "fr": "Des experts indépendants assurent la supervision tout en préservant l’autonomie de recherche.",
+            "de": "Unabhängige Experten bieten Aufsicht und wahren gleichzeitig die Forschungsautonomie.",
+            "pl": "Niezależni eksperci zapewniają nadzór, zachowując jednocześnie autonomię badawczą."
+          }
+        },
+        {
+          "title": {
+            "en": "Ethics Committee",
+            "ru": "Комитет по этике",
+            "nl": "Ethische commissie",
+            "es": "Comité de ética",
+            "fr": "Comité d’éthique",
+            "de": "Ethikausschuss",
+            "pl": "Komitet etyczny"
+          },
+          "desc": {
+            "en": "Each project undergoes an ethical review before publication.",
+            "ru": "Каждый проект проходит этический обзор перед публикацией.",
+            "nl": "Elk project ondergaat een ethische beoordeling voor publicatie.",
+            "es": "Cada proyecto pasa una revisión ética antes de la publicación.",
+            "fr": "Chaque projet fait l’objet d’un examen éthique avant publication.",
+            "de": "Jedes Projekt durchläuft vor der Veröffentlichung eine ethische Überprüfung.",
+            "pl": "Każdy projekt przechodzi przegląd etyczny przed publikacją."
+          }
+        },
+        {
+          "title": {
+            "en": "Legal Compliance",
+            "ru": "Правовое соответствие",
+            "nl": "Juridische naleving",
+            "es": "Cumplimiento legal",
+            "fr": "Conformité juridique",
+            "de": "Rechtliche Compliance",
+            "pl": "Zgodność prawna"
+          },
+          "desc": {
+            "en": "Registered in the Netherlands and governed by EU non-profit law.",
+            "ru": "Зарегистрирован в Нидерландах и действует в соответствии с законодательством ЕС для некоммерческих организаций.",
+            "nl": "Geregistreerd in Nederland en gereguleerd door EU-wetgeving voor non-profits.",
+            "es": "Registrado en los Países Bajos y gobernado por la legislación de ONG de la UE.",
+            "fr": "Enregistré aux Pays-Bas et régi par la législation européenne sur les associations à but non lucratif.",
+            "de": "In den Niederlanden registriert und durch EU-Non-Profit-Recht geregelt.",
+            "pl": "Zarejestrowana w Holandii i podlegająca prawu organizacji non-profit UE."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": {
+        "en": "Contact - Hyperboloid Stichting",
+        "ru": "Контакты - Hyperboloid Stichting",
+        "nl": "Contact - Hyperboloid Stichting",
+        "es": "Contacto - Hyperboloid Stichting",
+        "fr": "Contact - Hyperboloid Stichting",
+        "de": "Kontakt - Hyperboloid Stiftung",
+        "pl": "Kontakt - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Reach out to Hyperboloid for research requests, partnership proposals, and donations.",
+        "ru": "Свяжитесь с Hyperboloid для запросов на исследования, партнерства и пожертвования.",
+        "nl": "Neem contact op met Hyperboloid voor onderzoeksaanvragen, partnerschappen en donaties.",
+        "es": "Contacta con Hyperboloid para solicitudes de investigación, propuestas de colaboración y donaciones.",
+        "fr": "Contactez Hyperboloid pour des demandes de recherche, des propositions de partenariat et des dons.",
+        "de": "Kontaktieren Sie Hyperboloid für Forschungsanfragen, Partnerschaftsvorschläge und Spenden.",
+        "pl": "Skontaktuj się z Hyperboloid w sprawie zapytań badawczych, propozycji partnerstwa i darowizn."
+      },
+      "heroTitle": {
+        "en": "Contact",
+        "ru": "Контакты",
+        "nl": "Contact",
+        "es": "Contacto",
+        "fr": "Contact",
+        "de": "Kontakt",
+        "pl": "Kontakt"
+      },
+      "heroLead": {
+        "en": "Our global hubs and secure channels are available for civic cooperation.",
+        "ru": "Наши глобальные центры и защищенные каналы доступны для гражданского сотрудничества.",
+        "nl": "Onze wereldwijde hubs en beveiligde kanalen zijn beschikbaar voor burgerlijke samenwerking.",
+        "es": "Nuestros centros globales y canales seguros están disponibles para la cooperación cívica.",
+        "fr": "Nos centres mondiaux et canaux sécurisés sont disponibles pour la coopération civique.",
+        "de": "Unsere globalen Zentren und sicheren Kanäle stehen für zivile Zusammenarbeit zur Verfügung.",
+        "pl": "Nasze globalne centra i bezpieczne kanały są dostępne do współpracy obywatelskiej."
+      },
+      "form": {
+        "identity": {
+          "en": "Identity",
+          "ru": "Имя",
+          "nl": "Identiteit",
+          "es": "Identidad",
+          "fr": "Identité",
+          "de": "Identität",
+          "pl": "Tożsamość"
+        },
+        "email": {
+          "en": "Email / PGP",
+          "ru": "Электронная почта / PGP",
+          "nl": "E-mail / PGP",
+          "es": "Correo / PGP",
+          "fr": "Email / PGP",
+          "de": "E-Mail / PGP",
+          "pl": "Email / PGP"
+        },
+        "priority": {
+          "en": "Priority",
+          "ru": "Приоритет",
+          "nl": "Prioriteit",
+          "es": "Prioridad",
+          "fr": "Priorité",
+          "de": "Priorität",
+          "pl": "Priorytet"
+        },
+        "message": {
+          "en": "Manifesto / Message",
+          "ru": "Сообщение",
+          "nl": "Boodschap",
+          "es": "Mensaje",
+          "fr": "Message",
+          "de": "Nachricht",
+          "pl": "Wiadomość"
+        },
+        "send": {
+          "en": "Transmit",
+          "ru": "Передать",
+          "nl": "Verzenden",
+          "es": "Transmitir",
+          "fr": "Transmettre",
+          "de": "Senden",
+          "pl": "Przesłać"
+        }
+      }
+    }
+  },
+  "internalPages": {
+    "roadmap": {
+      "title": {
+        "en": "Roadmap - Hyperboloid Stichting",
+        "ru": "План - Hyperboloid Stichting",
+        "nl": "Routekaart - Hyperboloid Stichting",
+        "es": "Hoja de ruta - Hyperboloid Stichting",
+        "fr": "Feuille de route - Hyperboloid Stichting",
+        "de": "Fahrplan - Hyperboloid Stiftung",
+        "pl": "Mapa drogowa - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Project timeline, milestones and governance for the next phase of digital rights work.",
+        "ru": "График проектов, этапы и управление для следующей фазы работы по цифровым правам.",
+        "nl": "Projecttijdlijn, mijlpalen en governance voor de volgende fase van het werk aan digitale rechten.",
+        "es": "Cronograma de proyectos, hitos y gobernanza para la próxima fase del trabajo en derechos digitales.",
+        "fr": "Calendrier de projet, jalons et gouvernance pour la prochaine phase du travail sur les droits numériques.",
+        "de": "Projektzeitplan, Meilensteine und Governance für die nächste Phase der digitalen Rechtearbeit.",
+        "pl": "Harmonogram projektu, kamienie milowe i zarządzanie na kolejny etap pracy nad prawami cyfrowymi."
+      },
+      "heroTitle": {
+        "en": "Roadmap",
+        "ru": "План",
+        "nl": "Routekaart",
+        "es": "Hoja de ruta",
+        "fr": "Feuille de route",
+        "de": "Fahrplan",
+        "pl": "Mapa drogowa"
+      },
+      "heroLead": {
+        "en": "Structured project phases for research, advocacy, and institutional accountability.",
+        "ru": "Структурированные этапы проекта для исследований, адвокации и институциональной подотчетности.",
+        "nl": "Gestructureerde projectfasen voor onderzoek, belangenbehartiging en institutionele verantwoording.",
+        "es": "Fases de proyecto estructuradas para investigación, defensa y responsabilidad institucional.",
+        "fr": "Phases de projet structurées pour la recherche, le plaidoyer et la responsabilité institutionnelle.",
+        "de": "Strukturierte Projektphasen für Forschung, Interessenvertretung und institutionelle Rechenschaftspflicht.",
+        "pl": "Strukturyzowane etapy projektu dla badań, rzecznictwa i odpowiedzialności instytucjonalnej."
+      },
+      "phases": [
+        {
+          "quarter": {
+            "en": "Months 1-3",
+            "ru": "Месяцы 1-3",
+            "nl": "Maanden 1-3",
+            "es": "Meses 1-3",
+            "fr": "Mois 1-3",
+            "de": "Monate 1-3",
+            "pl": "Miesiące 1-3"
+          },
+          "title": {
+            "en": "Supranational Database Audit",
+            "ru": "Аудит наднациональных баз данных",
+            "nl": "Audit supranationale databanken",
+            "es": "Auditoría de bases de datos supranacionales",
+            "fr": "Audit des bases de données supranationales",
+            "de": "Audit supranationaler Datenbanken",
+            "pl": "Audyt ponadnarodowych baz danych"
+          },
+          "desc": {
+            "en": "Deep review of Interpol, FATF, and shared data systems for bias and abuse.",
+            "ru": "Глубокий обзор Интерпола, ФАТФ и общих систем данных на предмет предвзятости и злоупотреблений.",
+            "nl": "Diepgaande beoordeling van Interpol, FATF en gedeelde datasystemen op vooringenomenheid en misbruik.",
+            "es": "Revisión profunda de Interpol, FATF y sistemas de datos compartidos en busca de sesgos y abusos.",
+            "fr": "Examen approfondi d’Interpol, du GAFI et des systèmes de données partagées pour détecter les biais et abus.",
+            "de": "Tiefgehende Überprüfung von Interpol, FATF und gemeinsamen Datensystemen auf Voreingenommenheit und Missbrauch.",
+            "pl": "Dogłębna analiza Interpolu, FATF i wspólnych systemów danych pod kątem uprzedzeń i nadużyć."
+          },
+          "details": {
+            "en": "A flagship audit to identify where international security networks leak authority and enable political repression.",
+            "ru": "Флагманский аудит, чтобы выявить, где международные сети безопасности утрачивают власть и позволяют политические репрессии.",
+            "nl": "Een vlaggenschip-audit om te identificeren waar internationale beveiligingsnetwerken macht lekken en politieke repressie mogelijk maken.",
+            "es": "Una auditoría emblemática para identificar dónde las redes internacionales de seguridad filtran autoridad y permiten la represión política.",
+            "fr": "Un audit phare pour identifier où les réseaux de sécurité internationaux laissent fuir l’autorité et permettent la répression politique.",
+            "de": "Ein Flaggschiff-Audit, um zu identifizieren, wo internationale Sicherheitsnetze Autorität verlieren und politische Repression ermöglichen.",
+            "pl": "Flagowy audyt, aby zidentyfikować, gdzie międzynarodowe sieci bezpieczeństwa tracą autorytet i umożliwiają represje polityczne."
+          }
+        },
+        {
+          "quarter": {
+            "en": "Months 4-6",
+            "ru": "Месяцы 4-6",
+            "nl": "Maanden 4-6",
+            "es": "Meses 4-6",
+            "fr": "Mois 4-6",
+            "de": "Monate 4-6",
+            "pl": "Miesiące 4-6"
+          },
+          "title": {
+            "en": "Censorship Model Analysis",
+            "ru": "Анализ модели цензуры",
+            "nl": "Analyse van censuurmodellen",
+            "es": "Análisis de modelos de censura",
+            "fr": "Analyse des modèles de censure",
+            "de": "Analyse von Zensurmodellen",
+            "pl": "Analiza modeli cenzury"
+          },
+          "desc": {
+            "en": "Comparative research on how modern censorship patterns migrate into EU regulation.",
+            "ru": "Сравнительное исследование о том, как современные паттерны цензуры переходят в регулирование ЕС.",
+            "nl": "Vergelijkend onderzoek naar hoe moderne censuurpatronen migreren naar EU-regelgeving.",
+            "es": "Investigación comparativa sobre cómo los patrones de censura modernos migran a la regulación de la UE.",
+            "fr": "Recherche comparative sur la façon dont les schémas modernes de censure migrent vers la réglementation de l’UE.",
+            "de": "Vergleichende Forschung dazu, wie moderne Zensurmuster in die EU-Regulierung wandern.",
+            "pl": "Badania porównawcze nad tym, jak współczesne schematy cenzury przenoszą się do regulacji UE."
+          },
+          "details": {
+            "en": "Analysis of policy language, enforcement mechanics and the risks of imported digital control.",
+            "ru": "Анализ языка политики, механизмов правоприменения и рисков импортированного цифрового контроля.",
+            "nl": "Analyse van beleidsformulering, handhavingsmechanismen en de risico’s van geïmporteerde digitale controle.",
+            "es": "Análisis del lenguaje de políticas, mecanismos de aplicación y riesgos del control digital importado.",
+            "fr": "Analyse du langage politique, des mécanismes d’application et des risques du contrôle numérique importé.",
+            "de": "Analyse von Richtliniensprache, Durchsetzungsmechanismen und Risiken importierter digitaler Kontrolle.",
+            "pl": "Analiza języka polityki, mechanizmów egzekwowania i ryzyk importowanej kontroli cyfrowej."
+          }
+        },
+        {
+          "quarter": {
+            "en": "Months 7-9",
+            "ru": "Месяцы 7-9",
+            "nl": "Maanden 7-9",
+            "es": "Meses 7-9",
+            "fr": "Mois 7-9",
+            "de": "Monate 7-9",
+            "pl": "Miesiące 7-9"
+          },
+          "title": {
+            "en": "Community Impact and Reporting",
+            "ru": "Воздействие на сообщество и отчеты",
+            "nl": "Gemeenschapsimpact en rapportage",
+            "es": "Impacto comunitario e informes",
+            "fr": "Impact communautaire et rapports",
+            "de": "Gemeinschaftsauswirkungen und Berichterstattung",
+            "pl": "Wpływ na społeczność i raportowanie"
+          },
+          "desc": {
+            "en": "Publishing findings, supporting civil society and testing outreach formats.",
+            "ru": "Публикация выводов, поддержка гражданского общества и тестирование форматов охвата.",
+            "nl": "Publicatie van bevindingen, ondersteuning van het maatschappelijk middenveld en testen van outreach-formaten.",
+            "es": "Publicación de hallazgos, apoyo a la sociedad civil y prueba de formatos de difusión.",
+            "fr": "Publication des conclusions, soutien de la société civile et test des formats de sensibilisation.",
+            "de": "Veröffentlichung von Erkenntnissen, Unterstützung der Zivilgesellschaft und Test von Outreach-Formaten.",
+            "pl": "Publikacja ustaleń, wsparcie społeczeństwa obywatelskiego i testowanie formatów dotarcia."
+          },
+          "details": {
+            "en": "A phase focused on transparent reporting, public accountability and stakeholder engagement.",
+            "ru": "Этап, ориентированный на прозрачные отчеты, общественную подотчетность и взаимодействие со стейкхолдерами.",
+            "nl": "Een fase gericht op transparante rapportage, publieke verantwoording en betrokkenheid van belanghebbenden.",
+            "es": "Una fase centrada en informes transparentes, responsabilidad pública y participación de los interesados.",
+            "fr": "Une phase axée sur des rapports transparents, la responsabilité publique et l’engagement des parties prenantes.",
+            "de": "Eine Phase, die sich auf transparente Berichterstattung, öffentliche Verantwortlichkeit und Stakeholder-Engagement konzentriert.",
+            "pl": "Faza skoncentrowana na przejrzystym raportowaniu, odpowiedzialności publicznej i zaangażowaniu interesariuszy."
+          }
+        }
+      ]
+    },
+    "governance": {
+      "title": {
+        "en": "Governance - Hyperboloid Stichting",
+        "ru": "Управление - Hyperboloid Stichting",
+        "nl": "Bestuur - Hyperboloid Stichting",
+        "es": "Gobernanza - Hyperboloid Stichting",
+        "fr": "Gouvernance - Hyperboloid Stichting",
+        "de": "Governance - Hyperboloid Stiftung",
+        "pl": "Zarządzanie - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Foundation structure, ethics and transparency for our digital rights mission.",
+        "ru": "Структура фонда, этика и прозрачность для нашей миссии цифровых прав.",
+        "nl": "Fondstructuur, ethiek en transparantie voor onze missie digitale rechten.",
+        "es": "Estructura de la fundación, ética y transparencia para nuestra misión de derechos digitales.",
+        "fr": "Structure de la fondation, éthique et transparence pour notre mission des droits numériques.",
+        "de": "Stiftungsstruktur, Ethik und Transparenz für unsere Mission digitale Rechte.",
+        "pl": "Struktura fundacji, etyka i przejrzystość dla naszej misji praw cyfrowych."
+      },
+      "heroTitle": {
+        "en": "Governance",
+        "ru": "Управление",
+        "nl": "Bestuur",
+        "es": "Gobernanza",
+        "fr": "Gouvernance",
+        "de": "Governance",
+        "pl": "Zarządzanie"
+      },
+      "heroLead": {
+        "en": "Independent trustees and ethical oversight keep our research accountable.",
+        "ru": "Независимые попечители и этический надзор делают наши исследования подотчетными.",
+        "nl": "Onafhankelijke curatoren en ethisch toezicht houden ons onderzoek verantwoordelijk.",
+        "es": "Los fideicomisarios independientes y la supervisión ética mantienen nuestra investigación responsable.",
+        "fr": "Des administrateurs indépendants et une supervision éthique rendent nos recherches responsables.",
+        "de": "Unabhängige Treuhänder und ethische Aufsicht machen unsere Forschung rechenschaftspflichtig.",
+        "pl": "Niezależni powiernicy i nadzór etyczny zapewniają odpowiedzialność naszych badań."
+      }
+    },
+    "contact": {
+      "title": {
+        "en": "Contact - Hyperboloid Stichting",
+        "ru": "Контакты - Hyperboloid Stichting",
+        "nl": "Contact - Hyperboloid Stichting",
+        "es": "Contacto - Hyperboloid Stichting",
+        "fr": "Contact - Hyperboloid Stichting",
+        "de": "Kontakt - Hyperboloid Stiftung",
+        "pl": "Kontakt - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Reach out to Hyperboloid for research requests, partnership proposals, and donations.",
+        "ru": "Свяжитесь с Hyperboloid для запросов на исследования, партнерства и пожертвования.",
+        "nl": "Neem contact op met Hyperboloid voor onderzoeksaanvragen, partnerschappen en donaties.",
+        "es": "Contacta con Hyperboloid para solicitudes de investigación, propuestas de colaboración y donaciones.",
+        "fr": "Contactez Hyperboloid pour des demandes de recherche, des propositions de partenariat et des dons.",
+        "de": "Kontaktieren Sie Hyperboloid für Forschungsanfragen, Partnerschaftsvorschläge und Spenden.",
+        "pl": "Skontaktuj się z Hyperboloid w sprawie zapytań badawczych, propozycji partnerstwa i darowizn."
+      },
+      "heroTitle": {
+        "en": "Contact",
+        "ru": "Контакты",
+        "nl": "Contact",
+        "es": "Contacto",
+        "fr": "Contact",
+        "de": "Kontakt",
+        "pl": "Kontakt"
+      },
+      "heroLead": {
+        "en": "Our global hubs and secure channels are available for civic cooperation.",
+        "ru": "Наши глобальные центры и защищенные каналы доступны для гражданского сотрудничества.",
+        "nl": "Onze wereldwijde hubs en beveiligde kanalen zijn beschikbaar voor burgerlijke samenwerking.",
+        "es": "Nuestros centros globales y canales seguros están disponibles para la cooperación cívica.",
+        "fr": "Nos centres mondiaux et canaux sécurisés sont disponibles pour la coopération civique.",
+        "de": "Unsere globalen Zentren und sicheren Kanäle stehen für zivile Zusammenarbeit zur Verfügung.",
+        "pl": "Nasze globalne centra i bezpieczne kanały są dostępne do współpracy obywatelskiej."
+      }
+    }
+  },
   "internalPages": {
     "research": {
       "en": "Research center",

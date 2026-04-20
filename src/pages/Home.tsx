@@ -1,25 +1,27 @@
 import { motion } from "motion/react";
 import { ArrowRight, Shield, Globe, Lock } from "lucide-react";
 import { Helmet } from 'react-helmet';
+import { siteContent } from "../i18n";
 import { Language } from "../types";
 
 export default function Home({ lang }: { lang: Language }) {
+  const data = siteContent.labels[lang];
   const isEn = lang === "en";
 
   return (
     <>
       <Helmet>
-        <title>Hyperboloid Stichting - Digital Human Rights Protection</title>
-        <meta name="description" content="Independent research into the intersection of technology, individual liberty, and the institutional monitoring of dissent." />
-        <meta property="og:title" content="Hyperboloid Stichting - Digital Human Rights Protection" />
-        <meta property="og:description" content="Independent research into the intersection of technology, individual liberty, and the institutional monitoring of dissent." />
+        <title>{data.name} — {data.hero}</title>
+        <meta name="description" content={data.lead} />
+        <meta property="og:title" content={`${data.name} — ${data.hero}`} />
+        <meta property="og:description" content={data.lead} />
         <meta property="og:image" content="https://hyperboloid.org/og-image.jpg" />
-        <meta property="og:url" content="https://hyperboloid.org" />
+        <meta property="og:url" content={`https://hyperboloid.org/${lang}/`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hyperboloid Stichting" />
-        <meta name="twitter:description" content="Digital rights research, monitoring, and civic accountability reports." />
+        <meta name="twitter:description" content={data.lead} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://hyperboloid.org" />
+        <link rel="canonical" href={`https://hyperboloid.org/${lang}/`} />
       </Helmet>
       <div className="flex flex-col">
       {/* Hero Section */}
@@ -52,14 +54,12 @@ export default function Home({ lang }: { lang: Language }) {
             </h1>
             <div className="grid lg:grid-cols-2 gap-12 md:gap-20 items-end">
               <p className="text-xl md:text-2xl text-gray-400 font-light leading-relaxed max-w-xl">
-                {isEn 
-                  ? "Independent research into the intersection of technology, individual liberty, and the institutional monitoring of dissent." 
-                  : "Независимый аналитический центр, исследующий пересечение технологий, личной свободы и институционального мониторинга инакомыслия."}
+                {data.lead}
               </p>
               <div className="flex justify-start lg:justify-end">
                  <button className="group flex items-center gap-6 md:gap-8 px-8 md:px-10 py-5 md:py-6 bg-white text-black rounded-full hover:bg-brand-accent transition-all hover:scale-105 active:scale-95">
                     <span className="text-xs md:text-sm font-black uppercase tracking-widest">
-                      {isEn ? "Our Strategy" : "Наша стратегия"}
+                      {data.cta}
                     </span>
                     <ArrowRight className="w-5 h-5 md:w-6 md:h-6 group-hover:translate-x-2 transition-transform" />
                  </button>
@@ -75,12 +75,10 @@ export default function Home({ lang }: { lang: Language }) {
           <div className="grid lg:grid-cols-12 gap-20">
             <div className="lg:col-span-8 space-y-12">
               <h2 className="text-5xl md:text-7xl font-display font-black uppercase tracking-tighter leading-tight">
-                {isEn ? "The Digital Sovereignty Crisis" : "Кризис цифрового суверенитета"}
+                {data.hero}
               </h2>
-              
-              <div className="prose prose-xl prose-slate max-w-none space-y-8 text-lg md:text-xl font-light text-gray-600 leading-relaxed">
-                <h3 className="text-3xl font-black uppercase tracking-tighter mb-6">{isEn ? "Mission and Goals" : "Миссия и цели"}</h3>
-                <p>
+              <h3 className="text-3xl font-black uppercase tracking-tighter mb-6">{isEn ? "Mission and Goals" : "Миссия и цели"}</h3>
+              <p>
                   {isEn 
                     ? "The Foundation is created as an independent analytical center, whose mission is to protect the interests of pan-European civilization and ensure personal freedom through investments in social capital, technological progress, and monitoring institutions that suppress dissent."
                     : "Фонд создан как независимый аналитический центр, миссией которого является защита интересов общеевропейской цивилизации и обеспечение свободы личности через инвестиции в социальный капитал, технологический прогресс и мониторинг институтов подавления инакомыслия."}
@@ -170,7 +168,6 @@ export default function Home({ lang }: { lang: Language }) {
                   <li><strong>{isEn ? "Achievements:" : "Достижения:"}</strong> {isEn ? "Track record of published research, hearings, and impact on policy." : "История опубликованных исследований, слушаний и влияния на политику."}</li>
                 </ul>
               </div>
-            </div>
 
             <div className="lg:col-span-4 space-y-8">
               <div className="sticky top-40 space-y-8">
