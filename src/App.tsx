@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Layout } from "./components/Layout";
 import { Language } from "./types";
 import Home from "./pages/Home";
@@ -9,8 +9,29 @@ import Publications from "./pages/Publications";
 import Governance from "./pages/Governance";
 import Contact from "./pages/Contact";
 
+const LANG_STORAGE_KEY = "hyperboloid-lang";
+
+function resolveInitialLanguage(): Language {
+  if (typeof window === "undefined") {
+    return "en";
+  }
+
+  const storedLanguage = window.localStorage.getItem(LANG_STORAGE_KEY);
+  if (storedLanguage === "en" || storedLanguage === "ru") {
+    return storedLanguage;
+  }
+
+  const browserLanguage = window.navigator.language.toLowerCase();
+  return browserLanguage.startsWith("ru") ? "ru" : "en";
+}
+
 export default function App() {
-  const [lang, setLang] = useState<Language>("ru");
+  const [lang, setLang] = useState<Language>(() => resolveInitialLanguage());
+
+  useEffect(() => {
+    window.localStorage.setItem(LANG_STORAGE_KEY, lang);
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   return (
     <Router>

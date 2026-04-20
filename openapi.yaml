@@ -1,0 +1,115 @@
+openapi: 3.1.0
+info:
+  title: Hyperboloid Public API
+  version: 1.0.0
+  description: API contract for subscriptions, research requests, sponsorship, donations, and quarterly report requests.
+servers:
+  - url: https://hyperboloid.org
+    description: Production domain (all backend endpoints are exposed under /api/)
+paths:
+  /api/subscriptions:
+    post:
+      summary: Create newsletter subscription
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, language]
+              properties:
+                email: { type: string, format: email }
+                language: { type: string, enum: [en, ru, nl, es, fr, de, pl] }
+                topics:
+                  type: array
+                  items: { type: string }
+      responses:
+        '201':
+          description: Subscription created
+  /api/research-requests:
+    post:
+      summary: Submit custom research request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResearchRequest'
+      responses:
+        '201': { description: Request accepted }
+  /api/sponsorship-requests:
+    post:
+      summary: Submit charity/sponsorship request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SponsorshipRequest'
+      responses:
+        '201': { description: Request accepted }
+  /api/quarterly-reports/requests:
+    post:
+      summary: Request quarterly transparency report
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, organization]
+              properties:
+                email: { type: string, format: email }
+                organization: { type: string }
+                quarter: { type: string, example: '2026-Q2' }
+      responses:
+        '202': { description: Request queued }
+  /api/donations/stripe-checkout-session:
+    post:
+      summary: Create Stripe Checkout session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [amount, currency, successUrl, cancelUrl]
+              properties:
+                amount: { type: integer, minimum: 100 }
+                currency: { type: string, example: eur }
+                recurring: { type: boolean, default: false }
+                successUrl: { type: string, format: uri }
+                cancelUrl: { type: string, format: uri }
+      responses:
+        '200':
+          description: Checkout session created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  checkoutUrl: { type: string, format: uri }
+components:
+  schemas:
+    ResearchRequest:
+      type: object
+      required: [name, email, language, brief]
+      properties:
+        name: { type: string }
+        email: { type: string, format: email }
+        language: { type: string, enum: [en, ru, nl, es, fr, de, pl] }
+        organization: { type: string }
+        brief: { type: string, minLength: 30 }
+        deadline: { type: string, format: date }
+    SponsorshipRequest:
+      type: object
+      required: [contactName, email, focusAreas]
+      properties:
+        contactName: { type: string }
+        email: { type: string, format: email }
+        company: { type: string }
+        focusAreas:
+          type: array
+          items: { type: string }
+        budgetRange: { type: string, example: '10000-25000 EUR' }
+        message: { type: string }
