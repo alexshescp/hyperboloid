@@ -1,19 +1,328 @@
 {
-  "languages": ["en", "ru", "nl", "es", "fr", "de", "pl"],
+  "languages": [
+    "en",
+    "ru",
+    "nl",
+    "es",
+    "fr",
+    "de",
+    "pl"
+  ],
   "labels": {
-    "en": {"name":"English","menu":{"research":"Research","publications":"Publications","roadmap":"Roadmap","governance":"Governance","contact":"Contact"},"cta":"Donate via Stripe","programs":"Programs and civic activities","hero":"Digital Rights Observatory — English edition","lead":"Independent research platform on freedom of speech, digital dignity, and institutional accountability.","programItems":["Subscription","Research requests","Charity & sponsorship","Quarterly report"],"editorial":["This English edition is structured as a complete policy resource with legal, technical, and civic context.","We separate verified facts, analytical assumptions, and advocacy proposals to keep evidence traceable.","The platform is multilingual and route-stable: /en/, /ru/, /nl/, /es/, /fr/, /de/, /pl/."]},
-    "ru": {"name":"Русский","menu":{"research":"Исследования","publications":"Публикации","roadmap":"План","governance":"Управление","contact":"Контакты"},"cta":"Пожертвовать через Stripe","programs":"Программы и общественные активности","hero":"Обсерватория цифровых прав — русская версия","lead":"Независимая платформа о свободе слова, цифровом достоинстве и подотчетности институтов.","programItems":["Подписка","Исследовательские запросы","Благотворительность и спонсорство","Квартальный отчет"],"editorial":["Русская версия подготовлена как полноценное финальное издание с локализованной терминологией.","Мы разделяем подтвержденные факты, аналитические гипотезы и рекомендации для публичной дискуссии.","Платформа работает в стабильной MPA-структуре: /en/, /ru/, /nl/, /es/, /fr/, /de/, /pl/."]},
-    "nl": {"name":"Nederlands","menu":{"research":"Onderzoek","publications":"Publicaties","roadmap":"Routekaart","governance":"Bestuur","contact":"Contact"},"cta":"Doneer via Stripe","programs":"Programma’s en maatschappelijke activiteiten","hero":"Observatorium voor digitale rechten — Nederlandse editie","lead":"Onafhankelijk platform voor vrije meningsuiting, digitale waardigheid en institutionele verantwoording.","programItems":["Abonnement","Onderzoeksverzoeken","Goede doelen en sponsoring","Kwartaalrapport"],"editorial":["Deze Nederlandse editie is een volledige bron met juridisch, technisch en maatschappelijk kader.","Feiten, aannames en beleidsvoorstellen worden expliciet gescheiden voor transparantie.","De MPA-structuur biedt stabiele routes per taal en betere indexatie."]},
-    "es": {"name":"Español","menu":{"research":"Investigación","publications":"Publicaciones","roadmap":"Hoja de ruta","governance":"Gobernanza","contact":"Contacto"},"cta":"Donar con Stripe","programs":"Programas y actividades cívicas","hero":"Observatorio de derechos digitales — edición en español","lead":"Plataforma independiente sobre libertad de expresión, dignidad digital y rendición de cuentas.","programItems":["Suscripción","Solicitudes de investigación","Caridad y patrocinio","Informe trimestral"],"editorial":["Esta edición en español funciona como recurso completo con contexto legal y técnico.","Separamos hechos verificados, hipótesis y propuestas para mantener trazabilidad.","La estructura MPA garantiza rutas estables por idioma y mejor descubrimiento SEO/SMM."]},
-    "fr": {"name":"Français","menu":{"research":"Recherche","publications":"Publications","roadmap":"Feuille de route","governance":"Gouvernance","contact":"Contact"},"cta":"Faire un don via Stripe","programs":"Programmes et activités civiques","hero":"Observatoire des droits numériques — édition française","lead":"Plateforme indépendante sur la liberté d’expression, la dignité numérique et la redevabilité.","programItems":["Abonnement","Demandes de recherche","Charité et mécénat","Rapport trimestriel"],"editorial":["Cette édition française sert de ressource complète avec contexte juridique et technique.","Les faits vérifiés, hypothèses et propositions sont distingués pour une communication responsable.","L’architecture MPA garantit des URL stables et un meilleur partage social."]},
-    "de": {"name":"Deutsch","menu":{"research":"Forschung","publications":"Publikationen","roadmap":"Fahrplan","governance":"Governance","contact":"Kontakt"},"cta":"Über Stripe spenden","programs":"Programme und zivilgesellschaftliche Aktivitäten","hero":"Observatorium für digitale Rechte — deutsche Ausgabe","lead":"Unabhängige Plattform zu Meinungsfreiheit, digitaler Würde und Rechenschaft.","programItems":["Abonnement","Forschungsanfragen","Wohltätigkeit und Sponsoring","Quartalsbericht"],"editorial":["Diese deutsche Ausgabe ist eine vollständige Ressource mit juristischem und technischem Kontext.","Verifizierte Fakten, Annahmen und Vorschläge werden transparent getrennt.","Die MPA-Struktur bietet stabile Sprachrouten und bessere Auffindbarkeit."]},
-    "pl": {"name":"Polski","menu":{"research":"Badania","publications":"Publikacje","roadmap":"Mapa drogowa","governance":"Zarządzanie","contact":"Kontakt"},"cta":"Przekaż darowiznę przez Stripe","programs":"Programy i działania obywatelskie","hero":"Obserwatorium praw cyfrowych — wersja polska","lead":"Niezależna platforma o wolności słowa, godności cyfrowej i odpowiedzialności instytucjonalnej.","programItems":["Subskrypcja","Wnioski badawcze","Dobroczynność i sponsoring","Raport kwartalny"],"editorial":["Polska edycja to pełny zasób z kontekstem prawnym, technicznym i społecznym.","Oddzielamy fakty potwierdzone, hipotezy i rekomendacje dla przejrzystości.","Struktura MPA zapewnia stabilne ścieżki językowe i lepszą widoczność treści."]}
+    "en": {
+      "name": "English",
+      "menu": {
+        "research": "Research",
+        "publications": "Publications",
+        "roadmap": "Roadmap",
+        "governance": "Governance",
+        "contact": "Contact"
+      },
+      "cta": "Donate via Stripe",
+      "programs": "Programs and civic activities",
+      "hero": "Digital Rights Observatory — English edition",
+      "lead": "Independent research platform on freedom of speech, digital dignity, and institutional accountability.",
+      "programItems": [
+        "Subscription",
+        "Research requests",
+        "Charity & sponsorship",
+        "Quarterly report"
+      ],
+      "editorial": [
+        "This English edition is structured as a complete policy resource with legal, technical, and civic context.",
+        "We separate verified facts, analytical assumptions, and advocacy proposals to keep evidence traceable.",
+        "The platform is multilingual and route-stable: /en/, /ru/, /nl/, /es/, /fr/, /de/, /pl/."
+      ]
+    },
+    "ru": {
+      "name": "Русский",
+      "menu": {
+        "research": "Исследования",
+        "publications": "Публикации",
+        "roadmap": "План",
+        "governance": "Управление",
+        "contact": "Контакты"
+      },
+      "cta": "Пожертвовать через Stripe",
+      "programs": "Программы и общественные активности",
+      "hero": "Обсерватория цифровых прав — русская версия",
+      "lead": "Независимая платформа о свободе слова, цифровом достоинстве и подотчетности институтов.",
+      "programItems": [
+        "Подписка",
+        "Исследовательские запросы",
+        "Благотворительность и спонсорство",
+        "Квартальный отчет"
+      ],
+      "editorial": [
+        "Русская версия подготовлена как полноценное финальное издание с локализованной терминологией.",
+        "Мы разделяем подтвержденные факты, аналитические гипотезы и рекомендации для публичной дискуссии.",
+        "Платформа работает в стабильной MPA-структуре: /en/, /ru/, /nl/, /es/, /fr/, /de/, /pl/."
+      ]
+    },
+    "nl": {
+      "name": "Nederlands",
+      "menu": {
+        "research": "Onderzoek",
+        "publications": "Publicaties",
+        "roadmap": "Routekaart",
+        "governance": "Bestuur",
+        "contact": "Contact"
+      },
+      "cta": "Doneer via Stripe",
+      "programs": "Programma’s en maatschappelijke activiteiten",
+      "hero": "Observatorium voor digitale rechten — Nederlandse editie",
+      "lead": "Onafhankelijk platform voor vrije meningsuiting, digitale waardigheid en institutionele verantwoording.",
+      "programItems": [
+        "Abonnement",
+        "Onderzoeksverzoeken",
+        "Goede doelen en sponsoring",
+        "Kwartaalrapport"
+      ],
+      "editorial": [
+        "Deze Nederlandse editie is een volledige bron met juridisch, technisch en maatschappelijk kader.",
+        "Feiten, aannames en beleidsvoorstellen worden expliciet gescheiden voor transparantie.",
+        "De MPA-structuur biedt stabiele routes per taal en betere indexatie."
+      ]
+    },
+    "es": {
+      "name": "Español",
+      "menu": {
+        "research": "Investigación",
+        "publications": "Publicaciones",
+        "roadmap": "Hoja de ruta",
+        "governance": "Gobernanza",
+        "contact": "Contacto"
+      },
+      "cta": "Donar con Stripe",
+      "programs": "Programas y actividades cívicas",
+      "hero": "Observatorio de derechos digitales — edición en español",
+      "lead": "Plataforma independiente sobre libertad de expresión, dignidad digital y rendición de cuentas.",
+      "programItems": [
+        "Suscripción",
+        "Solicitudes de investigación",
+        "Caridad y patrocinio",
+        "Informe trimestral"
+      ],
+      "editorial": [
+        "Esta edición en español funciona como recurso completo con contexto legal y técnico.",
+        "Separamos hechos verificados, hipótesis y propuestas para mantener trazabilidad.",
+        "La estructura MPA garantiza rutas estables por idioma y mejor descubrimiento SEO/SMM."
+      ]
+    },
+    "fr": {
+      "name": "Français",
+      "menu": {
+        "research": "Recherche",
+        "publications": "Publications",
+        "roadmap": "Feuille de route",
+        "governance": "Gouvernance",
+        "contact": "Contact"
+      },
+      "cta": "Faire un don via Stripe",
+      "programs": "Programmes et activités civiques",
+      "hero": "Observatoire des droits numériques — édition française",
+      "lead": "Plateforme indépendante sur la liberté d’expression, la dignité numérique et la redevabilité.",
+      "programItems": [
+        "Abonnement",
+        "Demandes de recherche",
+        "Charité et mécénat",
+        "Rapport trimestriel"
+      ],
+      "editorial": [
+        "Cette édition française sert de ressource complète avec contexte juridique et technique.",
+        "Les faits vérifiés, hypothèses et propositions sont distingués pour une communication responsable.",
+        "L’architecture MPA garantit des URL stables et un meilleur partage social."
+      ]
+    },
+    "de": {
+      "name": "Deutsch",
+      "menu": {
+        "research": "Forschung",
+        "publications": "Publikationen",
+        "roadmap": "Fahrplan",
+        "governance": "Governance",
+        "contact": "Kontakt"
+      },
+      "cta": "Über Stripe spenden",
+      "programs": "Programme und zivilgesellschaftliche Aktivitäten",
+      "hero": "Observatorium für digitale Rechte — deutsche Ausgabe",
+      "lead": "Unabhängige Plattform zu Meinungsfreiheit, digitaler Würde und Rechenschaft.",
+      "programItems": [
+        "Abonnement",
+        "Forschungsanfragen",
+        "Wohltätigkeit und Sponsoring",
+        "Quartalsbericht"
+      ],
+      "editorial": [
+        "Diese deutsche Ausgabe ist eine vollständige Ressource mit juristischem und technischem Kontext.",
+        "Verifizierte Fakten, Annahmen und Vorschläge werden transparent getrennt.",
+        "Die MPA-Struktur bietet stabile Sprachrouten und bessere Auffindbarkeit."
+      ]
+    },
+    "pl": {
+      "name": "Polski",
+      "menu": {
+        "research": "Badania",
+        "publications": "Publikacje",
+        "roadmap": "Mapa drogowa",
+        "governance": "Zarządzanie",
+        "contact": "Kontakt"
+      },
+      "cta": "Przekaż darowiznę przez Stripe",
+      "programs": "Programy i działania obywatelskie",
+      "hero": "Obserwatorium praw cyfrowych — wersja polska",
+      "lead": "Niezależna platforma o wolności słowa, godności cyfrowej i odpowiedzialności instytucjonalnej.",
+      "programItems": [
+        "Subskrypcja",
+        "Wnioski badawcze",
+        "Dobroczynność i sponsoring",
+        "Raport kwartalny"
+      ],
+      "editorial": [
+        "Polska edycja to pełny zasób z kontekstem prawnym, technicznym i społecznym.",
+        "Oddzielamy fakty potwierdzone, hipotezy i rekomendacje dla przejrzystości.",
+        "Struktura MPA zapewnia stabilne ścieżki językowe i lepszą widoczność treści."
+      ]
+    }
   },
   "internalPages": {
-    "research": {"en":"Research center","ru":"Центр исследований","nl":"Onderzoekscentrum","es":"Centro de investigación","fr":"Centre de recherche","de":"Forschungszentrum","pl":"Centrum badań"},
-    "publications": {"en":"Publication archive","ru":"Архив публикаций","nl":"Publicatie-archief","es":"Archivo de publicaciones","fr":"Archive des publications","de":"Publikationsarchiv","pl":"Archiwum publikacji"},
-    "roadmap": {"en":"Roadmap and milestones","ru":"План и этапы","nl":"Routekaart en mijlpalen","es":"Hoja de ruta e hitos","fr":"Feuille de route et jalons","de":"Fahrplan und Meilensteine","pl":"Mapa drogowa i kamienie milowe"},
-    "governance": {"en":"Governance and accountability","ru":"Управление и подотчетность","nl":"Bestuur en verantwoording","es":"Gobernanza y rendición de cuentas","fr":"Gouvernance et redevabilité","de":"Governance und Rechenschaft","pl":"Zarządzanie i rozliczalność"},
-    "contact": {"en":"Contact and participation","ru":"Контакты и участие","nl":"Contact en deelname","es":"Contacto y participación","fr":"Contact et participation","de":"Kontakt und Beteiligung","pl":"Kontakt i udział"}
+    "research": {
+      "en": "Research center",
+      "ru": "Центр исследований",
+      "nl": "Onderzoekscentrum",
+      "es": "Centro de investigación",
+      "fr": "Centre de recherche",
+      "de": "Forschungszentrum",
+      "pl": "Centrum badań"
+    },
+    "publications": {
+      "en": "Publication archive",
+      "ru": "Архив публикаций",
+      "nl": "Publicatie-archief",
+      "es": "Archivo de publicaciones",
+      "fr": "Archive des publications",
+      "de": "Publikationsarchiv",
+      "pl": "Archiwum publikacji"
+    },
+    "roadmap": {
+      "en": "Roadmap and milestones",
+      "ru": "План и этапы",
+      "nl": "Routekaart en mijlpalen",
+      "es": "Hoja de ruta e hitos",
+      "fr": "Feuille de route et jalons",
+      "de": "Fahrplan und Meilensteine",
+      "pl": "Mapa drogowa i kamienie milowe"
+    },
+    "governance": {
+      "en": "Governance and accountability",
+      "ru": "Управление и подотчетность",
+      "nl": "Bestuur en verantwoording",
+      "es": "Gobernanza y rendición de cuentas",
+      "fr": "Gouvernance et redevabilité",
+      "de": "Governance und Rechenschaft",
+      "pl": "Zarządzanie i rozliczalność"
+    },
+    "contact": {
+      "en": "Contact and participation",
+      "ru": "Контакты и участие",
+      "nl": "Contact en deelname",
+      "es": "Contacto y participación",
+      "fr": "Contact et participation",
+      "de": "Kontakt und Beteiligung",
+      "pl": "Kontakt i udział"
+    }
+  },
+  "ui": {
+    "homeLabel": {
+      "en": "Home",
+      "ru": "Главная",
+      "nl": "Home",
+      "es": "Inicio",
+      "fr": "Accueil",
+      "de": "Start",
+      "pl": "Strona główna"
+    },
+    "gateway": {
+      "title": {
+        "en": "Choose language",
+        "ru": "Выберите язык",
+        "nl": "Kies taal",
+        "es": "Elige idioma",
+        "fr": "Choisissez la langue",
+        "de": "Sprache wählen",
+        "pl": "Wybierz język"
+      },
+      "pageTitle": "Hyperboloid Language Gateway"
+    },
+    "home": {
+      "siteTitle": {
+        "en": "Hyperboloid Foundation",
+        "ru": "Фонд Hyperboloid",
+        "nl": "Hyperboloid Stichting",
+        "es": "Fundación Hyperboloid",
+        "fr": "Fondation Hyperboloid",
+        "de": "Hyperboloid Stiftung",
+        "pl": "Fundacja Hyperboloid"
+      },
+      "internalNavigation": {
+        "en": "Internal navigation",
+        "ru": "Внутренняя навигация",
+        "nl": "Interne navigatie",
+        "es": "Navegación interna",
+        "fr": "Navigation interne",
+        "de": "Interne Navigation",
+        "pl": "Nawigacja wewnętrzna"
+      },
+      "editorialHeading": {
+        "en": "Editorial",
+        "ru": "Редакционная позиция",
+        "nl": "Redactioneel",
+        "es": "Editorial",
+        "fr": "Éditorial",
+        "de": "Redaktion",
+        "pl": "Redakcja"
+      }
+    },
+    "internal": {
+      "apiHeading": {
+        "en": "API",
+        "ru": "API",
+        "nl": "API",
+        "es": "API",
+        "fr": "API",
+        "de": "API",
+        "pl": "API"
+      },
+      "apiDescription": {
+        "en": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "ru": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "nl": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "es": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "fr": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "de": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "pl": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session"
+      }
+    },
+    "footer": {
+      "contacts": {
+        "en": "Contact: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "ru": "Контакты: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "nl": "Contact: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "es": "Contacto: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "fr": "Contact : research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "de": "Kontakt: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "pl": "Kontakt: research@hyperboloid.foundation · reports@hyperboloid.foundation"
+      },
+      "copyright": {
+        "en": "© 2026 Hyperboloid",
+        "ru": "© 2026 Hyperboloid",
+        "nl": "© 2026 Hyperboloid",
+        "es": "© 2026 Hyperboloid",
+        "fr": "© 2026 Hyperboloid",
+        "de": "© 2026 Hyperboloid",
+        "pl": "© 2026 Hyperboloid"
+      }
+    },
+    "brand": "Hyperboloid"
   }
 }
