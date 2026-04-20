@@ -6,7 +6,10 @@ import {defineConfig, loadEnv} from 'vite';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react(),
+      tailwindcss(),
+    ],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
@@ -22,6 +25,19 @@ export default defineConfig(({mode}) => {
     },
     build: {
       sourcemap: false,
+      outDir: 'dist',
+      rollupOptions: {
+        output: {
+          manualChunks: (id) => {
+            if (id.includes('node_modules')) {
+              if (id.includes('react') || id.includes('react-dom')) return 'react';
+              if (id.includes('react-router')) return 'router';
+              if (id.includes('lucide') || id.includes('motion')) return 'ui';
+              return 'vendor';
+            }
+          },
+        },
+      },
     },
   };
 });
