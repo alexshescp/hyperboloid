@@ -63,6 +63,9 @@ export default function Publications({ lang }: { lang: Language }) {
         <meta property="og:image" content="https://hyperboloid.org/og-publications.jpg" />
         <meta property="og:url" content="https://hyperboloid.org/publications" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hyperboloid Stichting" />
+        <meta name="twitter:description" content="Digital rights research, monitoring, and civic accountability reports." />
+        <meta property="og:type" content="website" />
         <link rel="canonical" href="https://hyperboloid.org/publications" />
       </Helmet>
       <div className="min-h-screen bg-[#050505] text-white pt-20">

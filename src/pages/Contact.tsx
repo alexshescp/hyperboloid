@@ -16,6 +16,9 @@ export default function Contact({ lang }: { lang: Language }) {
         <meta property="og:image" content="https://hyperboloid.org/og-contact.jpg" />
         <meta property="og:url" content="https://hyperboloid.org/contact" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hyperboloid Stichting" />
+        <meta name="twitter:description" content="Digital rights research, monitoring, and civic accountability reports." />
+        <meta property="og:type" content="website" />
         <link rel="canonical" href="https://hyperboloid.org/contact" />
       </Helmet>
       <div className="min-h-screen bg-[#050505] text-white pt-20">
@@ -115,6 +118,47 @@ export default function Contact({ lang }: { lang: Language }) {
                ? "For general media inquiries, partnership requests, or academic collaboration, our standard communication channels are monitored during Central European business hours. We aim to respond to all legitimate requests within 48 hours. Please note that the Hyperboloid Foundation does not offer personal tech support or data recovery services; our work is strictly focused on institutional research and human rights advocacy."
                : "Для общих запросов СМИ, запросов о партнерстве или академическом сотрудничестве наши стандартные каналы связи отслеживаются в рабочее время по центральноевропейскому времени. Мы стремимся отвечать на все законные запросы в течение 48 часов. Обратите внимание, что фонд Гиперболоид не предлагает услуги личной технической поддержки или восстановления данных; наша работа строго сфокусирована на институциональных исследованиях и защите прав человека."}
            </p>
+        </div>
+
+        <div className="mt-24 w-full max-w-6xl rounded-[48px] border border-white/10 bg-white/5 p-10 md:p-14">
+          <h3 className="text-3xl md:text-5xl font-display font-black uppercase tracking-tighter mb-8">
+            {isEn ? "Support Programs & Requests" : "Программы поддержки и запросы"}
+          </h3>
+          <div className="grid md:grid-cols-2 gap-8 text-gray-300">
+            <div className="space-y-4">
+              <h4 className="text-xl font-black uppercase tracking-wide">{isEn ? "What you can request" : "Что можно запросить"}</h4>
+              <ul className="space-y-2 list-disc pl-5">
+                <li>{isEn ? "Subscription to news and research releases." : "Подписку на новости и новые исследования."}</li>
+                <li>{isEn ? "A bespoke institutional research request." : "Индивидуальный исследовательский запрос для организации."}</li>
+                <li>{isEn ? "Quarterly transparency and impact report." : "Квартальный отчет о прозрачности и результатах."}</li>
+                <li>{isEn ? "Charity and sponsorship cooperation package." : "Пакет сотрудничества по благотворительности и спонсорству."}</li>
+              </ul>
+            </div>
+            <div className="space-y-4">
+              <h4 className="text-xl font-black uppercase tracking-wide">{isEn ? "Online support options" : "Варианты онлайн-поддержки"}</h4>
+              <p className="text-gray-400 leading-relaxed">
+                {isEn
+                  ? "You can make a direct online donation through Stripe, or ask for a sponsor prospectus with activity priorities and quarterly accountability details."
+                  : "Вы можете сделать прямое онлайн-пожертвование через Stripe или запросить спонсорский проспект с приоритетами деятельности и деталями квартальной подотчетности."}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="https://donate.stripe.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-2xl bg-brand-accent px-6 py-4 text-xs font-black uppercase tracking-[0.22em] hover:opacity-90 transition-opacity"
+                >
+                  {isEn ? "Donate via Stripe" : "Пожертвовать через Stripe"}
+                </a>
+                <a
+                  href="mailto:reports@hyperboloid.foundation"
+                  className="inline-flex items-center justify-center rounded-2xl border border-white/20 px-6 py-4 text-xs font-black uppercase tracking-[0.22em] hover:border-brand-accent hover:text-brand-accent transition-colors"
+                >
+                  {isEn ? "Request quarterly report" : "Запросить квартальный отчет"}
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -73,6 +73,9 @@ export default function Research({ lang }: { lang: Language }) {
         <meta property="og:image" content="https://hyperboloid.org/og-research.jpg" />
         <meta property="og:url" content="https://hyperboloid.org/research" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hyperboloid Stichting" />
+        <meta name="twitter:description" content="Digital rights research, monitoring, and civic accountability reports." />
+        <meta property="og:type" content="website" />
         <link rel="canonical" href="https://hyperboloid.org/research" />
       </Helmet>
       <div className="min-h-screen bg-[#050505] pt-20">

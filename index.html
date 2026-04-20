@@ -1,13 +1,1 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Hyperboloid Language Gateway</title><link rel="stylesheet" href="/site.css"/></head><body><main class="container"><h1>Choose language / Выберите язык</h1><p><a href="/en/">EN</a> · <a href="/ru/">RU</a> · <a href="/nl/">NL</a> · <a href="/es/">ES</a> · <a href="/fr/">FR</a> · <a href="/de/">DE</a> · <a href="/pl/">PL</a></p></main><script>const map={en:'en',ru:'ru',nl:'nl',es:'es',fr:'fr',de:'de',pl:'pl'};const s=localStorage.getItem('hyperboloid-lang');const n=(navigator.language||'en').slice(0,2).toLowerCase();const t=map[s]||map[n]||'en';if(location.pathname==='/'||location.pathname==='/index.html'){location.replace('/'+t+'/');}</script></body></html>
