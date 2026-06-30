@@ -1,0 +1,117 @@
+openapi: 3.1.0
+info:
+  title: Hyperboloid Public API
+  version: 1.1.0
+  description: API contract for subscriptions, research requests, whistleblower reports, incident tracking (SOS), and institutional sponsorship.
+  contact:
+    name: Hyperboloid Research Team
+    email: research@hyperboloid.eu
+    url: https://hyperboloid.eu/contact
+servers:
+  - url: https://hyperboloid.eu
+    description: Production API Gateway
+paths:
+  /api/subscriptions:
+    post:
+      summary: Create newsletter subscription
+      description: Subscribe to LinkedIn updates digest and quarterly reports.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, language]
+              properties:
+                email: { type: string, format: email }
+                language: { type: string, enum: [en, ru, nl, es, fr, de, pl] }
+      responses:
+        '201':
+          description: Subscription successful
+  /api/incidents/report:
+    post:
+      summary: Submit SOS Incident Report
+      description: Urgent report for incidents involving Interpol, FATF, Egmont, or PNR.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [organizations, details]
+              properties:
+                organizations:
+                  type: array
+                  items: { type: string, enum: [Interpol, FATF, Egmont, PNR] }
+                details: { type: string, minLength: 10 }
+                contactEmail: { type: string, format: email }
+      responses:
+        '201': { description: Incident report received and encrypted }
+  /api/whistleblower/submit:
+    post:
+      summary: Submit Whistleblower Information
+      description: Secure portal for reporting institutional violations and digital rights abuses.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [report, category]
+              properties:
+                category: { type: string, enum: [institutional, technical, legal, other] }
+                report: { type: string, minLength: 50 }
+                attachments: { type: array, items: { type: string, format: uri } }
+      responses:
+        '201': { description: Report submitted successfully }
+  /api/research-requests:
+    post:
+      summary: Submit Research Request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResearchRequest'
+      responses:
+        '201': { description: Request accepted }
+  /api/donations/online:
+    post:
+      summary: Create Online Donation Session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [amount, currency]
+              properties:
+                amount: { type: integer, minimum: 500, description: "Amount in cents (e.g. 500 = 5.00 EUR)" }
+                currency: { type: string, default: 'eur' }
+                recurring: { type: boolean, default: false }
+      responses:
+        '200':
+          description: Session created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  url: { type: string, format: uri }
+components:
+  schemas:
+    ResearchRequest:
+      type: object
+      required: [name, email, language, brief]
+      properties:
+        name: { type: string }
+        email: { type: string, format: email }
+        language: { type: string, enum: [en, ru, nl, es, fr, de, pl] }
+        brief: { type: string, minLength: 30 }
+    SponsorshipRequest:
+      type: object
+      required: [email, company, message]
+      properties:
+        email: { type: string, format: email }
+        company: { type: string }
+        message: { type: string }

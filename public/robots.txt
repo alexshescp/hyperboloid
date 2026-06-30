@@ -1,0 +1,26 @@
+# Sitemap file
+Sitemap: https://hyperboloid.eu/sitemap.xml
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Specific rules for common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay settings
+User-agent: *
+Crawl-delay: 1
+
+# Disallow crawling of admin and private areas (if any exist)
+User-agent: *
+Disallow: /.well-known/
+Disallow: /admin/
+Disallow: /api/private/

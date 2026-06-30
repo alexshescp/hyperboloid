@@ -1,0 +1,1853 @@
+{
+  "languages": [
+    "en",
+    "ru",
+    "nl",
+    "es",
+    "fr",
+    "de",
+    "pl"
+  ],
+  "labels": {
+    "en": {
+      "name": "English",
+      "menu": {
+        "research": "Research",
+        "publications": "Publications",
+        "roadmap": "Roadmap",
+        "governance": "Governance",
+        "contact": "Contact"
+      },
+      "cta": "Donate Online",
+      "programs": "Programs and civic activities",
+      "hero": "Digital Human Rights",
+      "lead": "Independent research platform on freedom of speech, digital dignity, and institutional accountability.",
+      "programItems": [
+        "Subscription",
+        "Research requests",
+        "Charity & sponsorship",
+        "Quarterly report"
+      ],
+      "whistleblower": "Whistleblower Portal",
+      "volunteer": "Become a Volunteer",
+      "sponsor": "For Sponsors",
+      "orgCommittee": "Organizational Committee",
+      "reports": "Public Reports",
+      "editorial": [
+        "This English edition is structured as a complete policy resource with legal, technical, and civic context.",
+        "We separate verified facts, analytical assumptions, and advocacy proposals to keep evidence traceable.",
+        "The platform is multilingual and route-stable: /en/, /ru/, /nl/, /es/, /fr/, /de/, /pl/."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Project Lifespan",
+      "email": "research@hyperboloid.eu",
+      "cities": "Amsterdam · Berlin · Lyon · Riga",
+      "newsSubscription": "News Subscription",
+      "getInTouch": "Get in Touch",
+      "contactPoint": "Contact",
+      "navigation": "Navigation"
+    },
+    "ru": {
+      "name": "Русский",
+      "menu": {
+        "research": "Исследования",
+        "publications": "Публикации",
+        "roadmap": "План",
+        "governance": "Управление",
+        "contact": "Контакты"
+      },
+      "cta": "Пожертвовать онлайн",
+      "programs": "Программы и общественные активности",
+      "hero": "Цифровые права человека",
+      "lead": "Независимая платформа о свободе слова, цифровом достоинстве и подотчетности институтов.",
+      "programItems": [
+        "Подписка",
+        "Исследовательские запросы",
+        "Благотворительность и спонсорство",
+        "Квартальный отчет"
+      ],
+      "whistleblower": "Портал для осведомителей",
+      "volunteer": "Стать волонтером",
+      "sponsor": "Для спонсоров",
+      "orgCommittee": "Организационный комитет",
+      "reports": "Публичные отчеты",
+      "editorial": [
+        "Русская версия подготовлена как полноценное финальное издание с локализованной терминологией.",
+        "Мы разделяем подтвержденные факты, аналитические гипотезы и рекомендации для публичной дискуссии.",
+        "Платформа работает в стабильной MPA-структуре: /en/, /ru/, /nl/, /es/, /fr/, /de/, /pl/."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Жизненный цикл проекта",
+      "email": "research@hyperboloid.eu",
+      "cities": "Амстердам · Берлин · Лион · Рига",
+      "newsSubscription": "Подписка на новости",
+      "getInTouch": "Свяжитесь с нами",
+      "contactPoint": "Контакт",
+      "navigation": "Навигация"
+    },
+    "nl": {
+      "name": "Nederlands",
+      "menu": {
+        "research": "Onderzoek",
+        "publications": "Publicaties",
+        "roadmap": "Routekaart",
+        "governance": "Bestuur",
+        "contact": "Contact"
+      },
+      "cta": "Online doneren",
+      "programs": "Programma’s en maatschappelijke activiteiten",
+      "hero": "Digitale mensenrechten",
+      "lead": "Onafhankelijk platform voor vrije meningsuiting, digitale waardigheid en institutionele verantwoording.",
+      "programItems": [
+        "Abonnement",
+        "Onderzoeksverzoeken",
+        "Goede doelen en sponsoring",
+        "Kwartaalrapport"
+      ],
+      "whistleblower": "Klokkenluidersportaal",
+      "volunteer": "Vrijwilliger worden",
+      "sponsor": "Voor sponsoren",
+      "orgCommittee": "Organisatiecomité",
+      "reports": "Publieke rapporten",
+      "editorial": [
+        "Deze Nederlandse editie is een volledige bron met juridisch, technisch en maatschappelijk kader.",
+        "Feiten, aannames en beleidsvoorstellen worden expliciet gescheiden voor transparantie.",
+        "De MPA-structuur biedt stabiele routes per taal en betere indexatie."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Levensduur van het project",
+      "email": "research@hyperboloid.eu",
+      "cities": "Amsterdam · Berlijn · Lyon · Riga",
+      "newsSubscription": "Nieuwsbrief abonnement",
+      "getInTouch": "Neem contact op",
+      "contactPoint": "Contact",
+      "navigation": "Navigatie"
+    },
+    "es": {
+      "name": "Español",
+      "menu": {
+        "research": "Investigación",
+        "publications": "Publicaciones",
+        "roadmap": "Hoja de ruta",
+        "governance": "Gobernanza",
+        "contact": "Contacto"
+      },
+      "cta": "Donar en línea",
+      "programs": "Programas y actividades cívicas",
+      "hero": "Derechos humanos digitales",
+      "lead": "Plataforma independiente sobre libertad de expresión, dignidad digital y rendición de cuentas.",
+      "programItems": [
+        "Suscripción",
+        "Solicitudes de investigación",
+        "Caridad y patrocinio",
+        "Informe trimestral"
+      ],
+      "whistleblower": "Portal de denunciantes",
+      "volunteer": "Hazte voluntario",
+      "sponsor": "Para patrocinadores",
+      "orgCommittee": "Comité organizador",
+      "reports": "Informes públicos",
+      "editorial": [
+        "Esta edición en español funciona como recurso completo con contexto legal y técnico.",
+        "Separamos hechos verificados, hipótesis y propuestas para mantener trazabilidad.",
+        "La estructura MPA garantiza rutas estables por idioma y mejor descubrimiento SEO/SMM."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Vida útil del proyecto",
+      "email": "research@hyperboloid.eu",
+      "cities": "Ámsterdam · Berlín · Lyon · Riga",
+      "newsSubscription": "Suscripción de noticias",
+      "getInTouch": "Ponte en contacto",
+      "contactPoint": "Contacto",
+      "navigation": "Navegación"
+    },
+    "fr": {
+      "name": "Français",
+      "menu": {
+        "research": "Recherche",
+        "publications": "Publications",
+        "roadmap": "Feuille de route",
+        "governance": "Gouvernance",
+        "contact": "Contact"
+      },
+      "cta": "Faire un don en ligne",
+      "programs": "Programmes et activités civiques",
+      "hero": "Droits de l'homme numériques",
+      "lead": "Plateforme indépendante sur la liberté d’expression, la dignité numérique et la redevabilité.",
+      "programItems": [
+        "Abonnement",
+        "Demandes de recherche",
+        "Charité et mécénat",
+        "Rapport trimestriel"
+      ],
+      "whistleblower": "Portail des lanceurs d'alerte",
+      "volunteer": "Devenir bénévole",
+      "sponsor": "Pour les sponsors",
+      "orgCommittee": "Comité d'organisation",
+      "reports": "Rapports publics",
+      "editorial": [
+        "Cette édition française sert de ressource complète avec contexte juridique et technique.",
+        "Les faits vérifiés, hypothèses et propositions sont distingués pour une communication responsable.",
+        "L’architecture MPA garantit des URL stables et un meilleur partage social."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Durée de vie du projet",
+      "email": "research@hyperboloid.eu",
+      "cities": "Amsterdam · Berlin · Lyon · Riga",
+      "newsSubscription": "Abonnement aux nouvelles",
+      "getInTouch": "Contactez-nous",
+      "contactPoint": "Contact",
+      "navigation": "Navigation"
+    },
+    "de": {
+      "name": "Deutsch",
+      "menu": {
+        "research": "Forschung",
+        "publications": "Publikationen",
+        "roadmap": "Fahrplan",
+        "governance": "Governance",
+        "contact": "Kontakt"
+      },
+      "cta": "Online spenden",
+      "programs": "Programme und zivilgesellschaftliche Aktivitäten",
+      "hero": "Digitale Menschenrechte",
+      "lead": "Unabhängige Plattform zu Meinungsfreiheit, digitaler Würde und Rechenschaft.",
+      "programItems": [
+        "Abonnement",
+        "Forschungsanfragen",
+        "Wohltätigkeit und Sponsoring",
+        "Quartalsbericht"
+      ],
+      "whistleblower": "Whistleblower-Portal",
+      "volunteer": "Freiwilliger werden",
+      "sponsor": "Für Sponsoren",
+      "orgCommittee": "Organisationskomitee",
+      "reports": "Öffentliche Berichte",
+      "editorial": [
+        "Diese deutsche Ausgabe ist eine vollständige Ressource mit juristischem und technischem Kontext.",
+        "Verifizierte Fakten, Annahmen und Vorschläge werden transparent getrennt.",
+        "Die MPA-Struktur bietet stabile Sprachrouten und bessere Auffindbarkeit."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Lebensdauer des Projekts",
+      "email": "research@hyperboloid.eu",
+      "cities": "Amsterdam · Berlin · Lyon · Riga",
+      "newsSubscription": "News-Abonnement",
+      "getInTouch": "Kontaktiere uns",
+      "contactPoint": "Kontakt",
+      "navigation": "Navigation"
+    },
+    "pl": {
+      "name": "Polski",
+      "menu": {
+        "research": "Badania",
+        "publications": "Publikacje",
+        "roadmap": "Mapa drogowa",
+        "governance": "Zarządzanie",
+        "contact": "Kontakt"
+      },
+      "cta": "Przekaż darowiznę online",
+      "programs": "Programy i działania obywatelskie",
+      "hero": "Cyfrowe prawa człowieka",
+      "lead": "Niezależna platforma o wolności słowa, godności cyfrowej i ответственности институциональной.",
+      "programItems": [
+        "Subskrypcja",
+        "Wnioski badawcze",
+        "Dobroczynność i sponsoring",
+        "Raport kwartalny"
+      ],
+      "whistleblower": "Portal dla sygnalistów",
+      "volunteer": "Zostań wolontariuszem",
+      "sponsor": "Dla sponsorów",
+      "orgCommittee": "Komitet organizacyjny",
+      "reports": "Raporty publiczne",
+      "editorial": [
+        "Polska edycja to pełny zasób z kontekstem prawnym, technicznym i społecznym.",
+        "Oddzielamy fakty подтвержденные, hipotezy i rekomendacje dla przejrzystości.",
+        "Struktura MPA zapewnia стабильные ścieżki językowe i lepszą видoczność treści."
+      ],
+      "modals": {
+        "subscribe": {
+          "title": {
+            "en": "Subscription",
+            "ru": "Подписка",
+            "nl": "Abonnement",
+            "es": "Suscripción",
+            "fr": "Abonnement",
+            "de": "Abonnement",
+            "pl": "Subskrypcja"
+          },
+          "message": {
+            "en": "Currently, all our news and updates are published on our LinkedIn page. We recommend following us there for real-time information.",
+            "ru": "В данный момент все наши новости и обновления публикуются на нашей странице в LinkedIn. Рекомендуем подписаться на нас там для получения оперативной информации.",
+            "nl": "Momenteel worden al onze nieuwsberichten en updates gepubliceerd op onze LinkedIn-pagina. We raden u aan ons daar te volgen voor actuele informatie.",
+            "es": "Actualmente, todas nuestras noticias y actualizaciones se publican en nuestra página de LinkedIn. Le recomendamos que nos siga allí para obtener información en tiempo real.",
+            "fr": "Actuellement, toutes nos actualités et mises à jour sont publiées sur notre page LinkedIn. Nous vous recommandons de nous y suivre pour des informations en temps réel.",
+            "de": "Derzeit werden alle unsere Neuigkeiten und Updates auf unserer LinkedIn-Seite veröffentlicht. Wir empfehlen Ihnen, uns dort zu folgen, um Echtzeit-Informationen zu erhalten.",
+            "pl": "Obecnie wszystkie nasze wiadomości i aktualizacje są publikowane na naszej stronie LinkedIn. Zalecamy śledzenie nas tam, aby otrzymywać informacje w czasie rzeczywistym."
+          },
+          "cta": {
+            "en": "Follow on LinkedIn",
+            "ru": "Подписаться в LinkedIn",
+            "nl": "Volg op LinkedIn",
+            "es": "Seguir en LinkedIn",
+            "fr": "Suivre sur LinkedIn",
+            "de": "Auf LinkedIn folgen",
+            "pl": "Obserwuj na LinkedIn"
+          }
+        },
+        "feedback": {
+          "title": {
+            "en": "Feedback",
+            "ru": "Обратная связь",
+            "nl": "Feedback",
+            "es": "Comentarios",
+            "fr": "Commentaires",
+            "de": "Feedback",
+            "pl": "Informacja zwrotna"
+          },
+          "submit": {
+            "en": "Submit",
+            "ru": "Отправить",
+            "nl": "Verzenden",
+            "es": "Enviar",
+            "fr": "Envoyer",
+            "de": "Absenden",
+            "pl": "Wyślij"
+          }
+        },
+        "sos": {
+          "title": {
+            "en": "Urgent Incident Report",
+            "ru": "Срочное сообщение об инциденте",
+            "nl": "Dringende incidentmelding",
+            "es": "Informe urgente de incidente",
+            "fr": "Signalement urgent d'incident",
+            "de": "Dringende Incident-Meldung",
+            "pl": "Pilne zgłoszenie incydentu"
+          },
+          "desc": {
+            "en": "For incidents involving Interpol, FATF, Egmont Group, or PNR.",
+            "ru": "Для инцидентов с участием Interpol, FATF, Egmont Group или PNR.",
+            "nl": "Voor incidenten met Interpol, FATF, Egmont Group of PNR.",
+            "es": "Para incidentes que involucren a Interpol, FATF, Egmont Group o PNR.",
+            "fr": "Pour les incidents impliquant Interpol, le GAFI, le Groupe Egmont ou le PNR.",
+            "de": "Für Vorfälle mit Interpol, FATF, Egmont Group oder PNR.",
+            "pl": "Dla incydentów z udziałem Interpolu, FATF, Egmont Group lub PNR."
+          }
+        }
+      },
+      "projectLifespan": "Cykl życia projektu",
+      "email": "research@hyperboloid.eu",
+      "cities": "Amsterdam · Berlin · Lyon · Riga",
+      "newsSubscription": "Subskrypcja wiadomości",
+      "getInTouch": "Skontaktuj się z nami",
+      "contactPoint": "Kontakt",
+      "navigation": "Nawigacja"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": {
+        "en": "Digital Human Rights",
+        "ru": "Цифровые права человека",
+        "nl": "Digitale mensenrechten",
+        "es": "Derechos humanos digitales",
+        "fr": "Droits de l'homme numériques",
+        "de": "Digitale Menschenrechte",
+        "pl": "Cyfrowe prawa człowieka"
+      },
+      "description": {
+        "en": "Independent research on freedom of speech, digital dignity, and institutional accountability.",
+        "ru": "Независимые исследования о свободе слова, цифровом достоинстве и подотчетности институтов.",
+        "nl": "Onafhankelijk onderzoek naar vrijheid van meningsuiting, digitale waardigheid en institutionele verantwoording.",
+        "es": "Investigación independiente sobre libertad de expresión, dignidad digital y responsabilidad institucional.",
+        "fr": "Recherche indépendante sur la liberté d’expression, la dignité numérique et la responsabilité institutionnelle.",
+        "de": "Unabhängige Forschung zu Meinungsfreiheit, digitaler Würde und institutioneller Verantwortung.",
+        "pl": "Niezależne badania nad wolnością słowa, godnością cyfrową и ответственностью институциональной."
+      },
+      "ogTitle": {
+        "en": "Hyperboloid Foundation — Digital Rights Observatory",
+        "ru": "Фонд Hyperboloid — Обсерватория цифровых прав",
+        "nl": "Hyperboloid Stichting — Observatorium digitale rechten",
+        "es": "Fundación Hyperboloid — Observatorio de derechos digitales",
+        "fr": "Fondation Hyperboloid — Observatoire des droits numériques",
+        "de": "Hyperboloid Stiftung — Observatorium digitale Rechte",
+        "pl": "Fundacja Hyperboloid — Obserwatorium praw cyfrowych"
+      },
+      "ogDescription": {
+        "en": "Multilingual civic monitoring, research, and reporting on digital freedom across Europe.",
+        "ru": "Мультиязычный гражданский мониторинг, исследования и отчеты о цифровой свободе по всей Европе.",
+        "nl": "Meertalige burgerlijke monitoring, onderzoek en rapportage over digitale vrijheid in heel Europa.",
+        "es": "Monitoreo cívico multilingüe, investigación e informes sobre libertad digital en toda Europa.",
+        "fr": "Surveillance civique multilingue, recherche et rapports sur la liberté numérique en Europe.",
+        "de": "Mehrsprachige zivile Überwachung, Forschung und Berichterstattung über digitale Freiheit in Europa.",
+        "pl": "Wielojęzyczny monitoring obywatelski, badania и raporty o wolności cyfrowej w całej Europie."
+      }
+    },
+    "research": {
+      "title": {
+        "en": "Research - Hyperboloid Stichting",
+        "ru": "Исследования - Hyperboloid Stichting",
+        "nl": "Onderzoek - Hyperboloid Stichting",
+        "es": "Investigación - Hyperboloid Stichting",
+        "fr": "Recherche - Hyperboloid Stichting",
+        "de": "Forschung - Hyperboloid Stiftung",
+        "pl": "Badania - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Priority clusters on digital rights, AI censorship, privacy, and transnational accountability.",
+        "ru": "Приоритетные направления по цифровым правам, цензуре ИИ, приватности и транснациональной подотчетности.",
+        "nl": "Prioritaire clusters over digitale rechten, AI-censuur, privacy en transnationale verantwoording.",
+        "es": "Clústeres prioritarios sobre derechos digitales, censura de IA, privacidad y rendición de cuentas transnacional.",
+        "fr": "Pôles prioritaires sur les droits numériques, la censure IA, la confidentialité et la responsabilité transnationale.",
+        "de": "Prioritäre Cluster zu digitalen Rechten, KI-Zensur, Datenschutz und transnationaler Rechenschaftspflicht.",
+        "pl": "Priorytetowe klastry dotyczące praw cyfrowych, cenzury AI, prywatności и transnarodowej ответственности."
+      },
+      "heroTitle": {
+        "en": "Priority Research Clusters",
+        "ru": "Приоритетные направления исследований",
+        "nl": "Prioritaire onderzoeksclusters",
+        "es": "Clusters de investigación prioritarios",
+        "fr": "Pôles de recherche prioritaires",
+        "de": "Prioritäre Forschungscluster",
+        "pl": "Priorytetowe klastry badawcze"
+      },
+      "heroLead": {
+        "en": "We combine legal audits, technical investigation, and human rights analysis to map modern censorship.",
+        "ru": "Мы объединяем юридические аудиты, технические расследования и анализ прав человека для картирования современной цензуры.",
+        "nl": "We combineren juridische audits, technisch onderzoek en mensenrechtenanalyse om moderne censuur in kaart te brengen.",
+        "es": "Combinamos auditorías legales, investigación técnica y análisis de derechos humanos para mapear la censura moderna.",
+        "fr": "Nous combinons audits juridiques, enquêtes techniques et analyses des droits de l’homme pour cartographier la censure moderne.",
+        "de": "Wir kombinieren Rechtsprüfungen, technische Untersuchungen und Menschenrechtsanalysen, um moderne Zensur zu kartieren.",
+        "pl": "Łączymy audyty prawne, badania techniczne i analizę прав человека для картирования современной цензуры."
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Rights Monitoring & Freedom of Conscience",
+            "ru": "Мониторинг прав и свобода совести",
+            "nl": "Rechtenmonitoring en vrijheid van geweten",
+            "es": "Monitoreo de derechos y libertad de conciencia",
+            "fr": "Surveillance des droits et liberté de conscience",
+            "de": "Rechtsüberwachung und Gewissensfreiheit",
+            "pl": "Monitorowanie praw i wolność sumienia"
+          },
+          "desc": {
+            "en": "Tracking suppression of high-risk groups through biometric surveillance and policy tools.",
+            "ru": "Отслеживание подавления групп риска через биометрический надзор и политические инструменты.",
+            "nl": "Het volgen van onderdrukking van risicogроepen via biometrisch toezicht и beleidsinstrumenten.",
+            "es": "Seguimiento de la represión de grupos de alto riesgo mediante vigilancia biométrica и herramientas políticas.",
+            "fr": "Suivi de la répression de groupes à haut risque via la surveillance biométrique и les outils politiques.",
+            "de": "Verfolgung der Unterdrückung von Risikogruppen durch biometrische Überwachung и politische Werkzeuge.",
+            "pl": "Śledzenie tłumienia grup wysokiego ryzyka за pomocą nadzoru biometrycznego и narzędzi politycznych."
+          }
+        },
+        {
+          "title": {
+            "en": "Comparative Censorship & Constitutional Drift",
+            "ru": "Сравнительный анализ цензуры и правовой дрейф",
+            "nl": "Vergelijkende censuur en constitutionele drift",
+            "es": "Censura comparativa y deriva constitucional",
+            "fr": "Censure comparative et dérive constitutionnelle",
+            "de": "Vergleichende Zensur und verfassungsrechtliche Drift",
+            "pl": "Porównawcza cenzura и dryf konstytucyjny"
+          },
+          "desc": {
+            "en": "Studying how authoritarian censorship models move from East to West under security rhetoric.",
+            "ru": "Изучение того, как авторитарные модели цензуры переходят с Востока на Запад под риторикой безопасности.",
+            "nl": "Onderzoekt hoe autoritaire censuurmodellen van Oost naar West verschuiven onder veiligheidsretoriek.",
+            "es": "Estudiando cómo los modelos de censura autoritarios se mueven de Este a Oeste bajo retórica de seguridad.",
+            "fr": "Étudier comment les modèles de censure autoritaires passent de l’Est à l’Ouest sous une rhétorique de sécurité.",
+            "de": "Untersuchung, wie autoritäre Zensurmodelle unter Sicherheitsrhetorik von Ost nach West wandern.",
+            "pl": "Badanie, jak autorytarne modele cenzury przesuwają się ze Wschodu na Zachód под риторикой безопасности."
+          }
+        },
+        {
+          "title": {
+            "en": "Supranational Database Integrity",
+            "ru": "Целостность наднациональных баз данных",
+            "nl": "Integriteit van supranationale databases",
+            "es": "Integridad de bases de datos supranacionales",
+            "fr": "Intégrité des bases de données supranationales",
+            "de": "Integrität supranationaler Datenbanken",
+            "pl": "Integralność ponadnarodowych baz данных"
+          },
+          "desc": {
+            "en": "Auditing Interpol, FATF and shared data flows for misuse and political bias.",
+            "ru": "Аудит Интерпола, ФАТФ и общих потоков данных на предмет злоупотреблений и политической предвзятости.",
+            "nl": "Auditing van Interpol, FATF en gedeelde datastromen op misbruik и politieke vooringenomenheid.",
+            "es": "Auditoría de Interpol, FATF y flujos de datos compartidos для детектирования abuse и sesgo político.",
+            "fr": "Audit d’Interpol, du GAFI et des flux de données partagés для детектирования abuse и biais politiques.",
+            "de": "Audit von Interpol, FATF und gemeinsamen Datenströmen на предмет Missbrauch и политической предвзятости.",
+            "pl": "Audyt Interpolu, FATF i wspólnych przepływów данных под kątem nadużyć и uprzedzeń politycznych."
+          }
+        }
+      ],
+      "ogTitle": {
+        "en": "Research - Hyperboloid Stichting",
+        "ru": "Исследования - Hyperboloid Stichting",
+        "nl": "Onderzoek - Hyperboloid Stichting",
+        "es": "Investigación - Hyperboloid Stichting",
+        "fr": "Recherche - Hyperboloid Stichting",
+        "de": "Forschung - Hyperboloid Stiftung",
+        "pl": "Badania - Hyperboloid Stichting"
+      },
+      "ogDescription": {
+        "en": "Priority clusters on digital rights, AI censorship, privacy, and transnational accountability.",
+        "ru": "Приоритетные направления по цифровым правам, цензуре ИИ, приватности и транснациональной подотчетности.",
+        "nl": "Prioritaire clusters over digitale rechten, AI-censuur, privacy en transnationale verantwoording.",
+        "es": "Clústeres prioritarios sobre derechos digitales, censura de IA, privacidad y rendición de cuentas transnacional.",
+        "fr": "Pôles prioritaires sur les droits numériques, la censure IA, la confidentialité et la responsabilité transnationale.",
+        "de": "Prioritäre Cluster zu digitalen Rechten, KI-Zensur, Datenschutz und transnationaler Rechenschaftspflicht.",
+        "pl": "Priorytetowe klastry dotyczące praw cyfrowych, cenzury AI, prywatności и transnarodowej ответственности."
+      }
+    },
+    "publications": {
+      "title": {
+        "en": "Publications - Hyperboloid Stichting",
+        "ru": "Публикации - Hyperboloid Stichting",
+        "nl": "Publicaties - Hyperboloid Stichting",
+        "es": "Publicaciones - Hyperboloid Stichting",
+        "fr": "Publications - Hyperboloid Stichting",
+        "de": "Publikationen - Hyperboloid Stiftung",
+        "pl": "Publikacje - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Scientific papers, reports, and analysis for digital rights defenders.",
+        "ru": "Научные статьи, отчеты и аналитика для защитников цифровых прав.",
+        "nl": "Wetenschappelijke artikelen, rapporten en analyses voor verdedigers van digitale rechten.",
+        "es": "Artículos científicos, informes y análisis para defensores de los derechos digitales.",
+        "fr": "Articles scientifiques, rapports et analyses pour les défenseurs des droits numériques.",
+        "de": "Wissenschaftliche Arbeiten, Berichte und Analysen für Verteidiger digitaler Rechte.",
+        "pl": "Artykuły naukowe, raporty и аналитика для оборонцов прав цифровых."
+      },
+      "heroTitle": {
+        "en": "Publications",
+        "ru": "Публикации",
+        "nl": "Publicaties",
+        "es": "Publicaciones",
+        "fr": "Publications",
+        "de": "Publikationen",
+        "pl": "Publikacje"
+      },
+      "heroLead": {
+        "en": "Our research outputs are open-access and designed to support advocacy and accountability.",
+        "ru": "Наши исследования открыты и созданы для поддержки адвокации и подотчетности.",
+        "nl": "Onze onderzoeksresultaten zijn open-access en bedoeld om pleitbezorging en verantwoording te ondersteunen.",
+        "es": "Nuestros resultados de investigación son de acceso abierto y diseñados para apoyar la defensa y la rendición de cuentas.",
+        "fr": "Nos résultats de recherche sont en accès libre et conçus pour soutenir le plaidoyer et la responsabilité.",
+        "de": "Unsere Forschungsergebnisse sind Open Access und darauf ausgelegt, Interessenvertretung и Rechenschaftspflicht zu unterstützen.",
+        "pl": "Wyniki naszych badań są otwarte и mają wspierać rzecznictwo oraz ответственность."
+      },
+      "categories": [
+        {
+          "title": {
+            "en": "Scientific Research",
+            "ru": "Научные исследования",
+            "nl": "Wetenschappelijk onderzoek",
+            "es": "Investigación científica",
+            "fr": "Recherche scientifique",
+            "de": "Wissenschaftliche Forschung",
+            "pl": "Badania naukowe"
+          },
+          "count": {
+            "en": "4 / Year",
+            "ru": "4 / Год",
+            "nl": "4 / Jaar",
+            "es": "4 / Año",
+            "fr": "4 / An",
+            "de": "4 / Jahr",
+            "pl": "4 / Rok"
+          },
+          "desc": {
+            "en": "Deep-dive peer-reviewed papers on network protocols and digital sovereignty.",
+            "ru": "Глубокие рецензируемые статьи о сетевых протоколах и цифровом суверенитете.",
+            "nl": "Diepgaande peer-reviewed artikelen over netwerkprotocollen и digitale soevereiniteit.",
+            "es": "Artículos profundos revisados por pares sobre protocolos de red и soberanía digital.",
+            "fr": "Articles approfondis évalués par des pairs sur les protocoles réseau и la souveraineté numérique.",
+            "de": "Tiefgehende peer-reviewed Artikel über Netzwerkprotokolle и digitale Souveränität.",
+            "pl": "Dogłębne artykuły recenzowane на тему протоколов сетевых и суверенитета цифрового."
+          }
+        },
+        {
+          "title": {
+            "en": "Mini-Investigations",
+            "ru": "Мини-расследования",
+            "nl": "Mini-onderzoeken",
+            "es": "Mini-investigaciones",
+            "fr": "Mini-enquêtes",
+            "de": "Mini-Untersuchungen",
+            "pl": "Mini-śledztwa"
+          },
+          "count": {
+            "en": "6 / Year",
+            "ru": "6 / Год",
+            "nl": "6 / Jaar",
+            "es": "6 / Año",
+            "fr": "6 / An",
+            "de": "6 / Jahr",
+            "pl": "6 / Rok"
+          },
+          "desc": {
+            "en": "Journalistic rapid-response reports and whistleblower insights.",
+            "ru": "Журналистские оперативные отчеты и инсайдерские материалы.",
+            "nl": "Journalistieke snelheidsrapporten en klokkenluidersinzichten.",
+            "es": "Informes periodísticos de respuesta rápida и информация de denunciantes.",
+            "fr": "Rapports journalistiques à réponse rapide и éclairages de lanceurs d’alerte.",
+            "de": "Journalistische Schnellberichte и Hinweise von Whistleblowern.",
+            "pl": "Dziennikarskie raporty szybkiego reagowania и информация от sygnalistów."
+          }
+        },
+        {
+          "title": {
+            "en": "Analytical Longreads",
+            "ru": "Аналитические лонгриды",
+            "nl": "Analytische longreads",
+            "es": "Longreads analíticos",
+            "fr": "Longreads analytiques",
+            "de": "Analytische Longreads",
+            "pl": "Analizy długiego formatu"
+          },
+          "count": {
+            "en": "54 / Year",
+            "ru": "54 / Год",
+            "nl": "54 / Jaar",
+            "es": "54 / Año",
+            "fr": "54 / An",
+            "de": "54 / Jahr",
+            "pl": "54 / Rok"
+          },
+          "desc": {
+            "en": "Weekly in-depth reports linking data, hearings and policy trends.",
+            "ru": "Еженедельные глубокие отчеты, связывающие данные, слушания и политические тренды.",
+            "nl": "Wekelijkse diepgaande rapporten die gegevens, hoorzittingen и politieke trends verbinden.",
+            "es": "Informes semanales en profundidad que vinculan datos, audiencias и tendencias políticas.",
+            "fr": "Rapports hebdomadaires approfondis liant données, auditions и tendances politiques.",
+            "de": "Wöchentliche tiefgehende Berichte, die данные, Anhörungen и политические тренды соединяют.",
+            "pl": "Cotygodniowe, dogłębne raporty łączące dane, przesłuchania и trendy polityczne."
+          }
+        },
+        {
+          "title": {
+            "en": "Sovereignty Index",
+            "ru": "Индекс суверенитета",
+            "nl": "Soevereiniteitsindex",
+            "es": "Índice de soberanía",
+            "fr": "Indice de souveraineté",
+            "de": "Souveränitätsindex",
+            "pl": "Indeks suwerenności"
+          },
+          "count": {
+            "en": "1 / Year",
+            "ru": "1 / Год",
+            "nl": "1 / Jaar",
+            "es": "1 / Año",
+            "fr": "1 / An",
+            "de": "1 / Jahr",
+            "pl": "1 / Rok"
+          },
+          "desc": {
+            "en": "Annual benchmark on state respect for digital human rights.",
+            "ru": "Ежегодный эталон уважения государством цифровых прав человека.",
+            "nl": "Jaarlijkse benchmark voor staatsrespect voor digitale mensenrechten.",
+            "es": "Referencia anual sobre el respeto estatal a los derechos humanos digitales.",
+            "fr": "Référence annuelle sur le respect étatique des droits humains numériques.",
+            "de": "Jährlicher Benchmark zum staatlichen Respekt digitaler Menschenrechte.",
+            "pl": "Coroczny benchmark dotyczący poszanowania cyfrowych прав человека через паństwo."
+          }
+        }
+      ],
+      "ogTitle": {
+        "en": "Publications - Hyperboloid Stichting",
+        "ru": "Публикации - Hyperboloid Stichting",
+        "nl": "Publicaties - Hyperboloid Stichting",
+        "es": "Publicaciones - Hyperboloid Stichting",
+        "fr": "Publications - Hyperboloid Stichting",
+        "de": "Publikationen - Hyperboloid Stiftung",
+        "pl": "Publikacje - Hyperboloid Stichting"
+      },
+      "ogDescription": {
+        "en": "Scientific papers, reports, and analysis for digital rights defenders.",
+        "ru": "Научные статьи, отчеты и аналитика для защитников цифровых прав.",
+        "nl": "Wetenschappelijke artikelen, rapporten en analyses voor verdedigers van digitale rechten.",
+        "es": "Artículos científicos, informes y análisis para defensores de los derechos digitales.",
+        "fr": "Articles scientifiques, rapports et analyses pour les défenseurs des droits numériques.",
+        "de": "Wissenschaftliche Arbeiten, Berichte und Analysen für Verteidiger digitaler Rechte.",
+        "pl": "Artykuły naukowe, raporty и аналитика для оборонцов прав цифровых."
+      }
+    },
+    "roadmap": {
+      "title": {
+        "en": "Roadmap - Hyperboloid Stichting",
+        "ru": "План - Hyperboloid Stichting",
+        "nl": "Routekaart - Hyperboloid Stichting",
+        "es": "Hoja de ruta - Hyperboloid Stichting",
+        "fr": "Feuille de route - Hyperboloid Stichting",
+        "de": "Fahrplan - Hyperboloid Stiftung",
+        "pl": "Mapa drogowa - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Project timeline, milestones and governance for the next phase of digital rights work.",
+        "ru": "График проектов, этапы и управление для следующей фазы работы по цифровым правам.",
+        "nl": "Projecttijdlijn, mijlpalen en governance voor de volgende fase van het werk aan digitale rechten.",
+        "es": "Cronograma de proyectos, hitos y gobernanza para la próxima fase del trabajo en derechos digitales.",
+        "fr": "Calendrier de projet, jalons et gouvernance pour la prochaine phase du travail sur les droits numériques.",
+        "de": "Projektzeitplan, Meilensteine und Governance für die nächste Phase der digitalen Rechtearbeit.",
+        "pl": "Harmonogram projektu, kamienie milowe i zarządzanie на следующий этап работы по цифровым правам."
+      },
+      "heroTitle": {
+        "en": "ROADMAP",
+        "ru": "ROADMAP",
+        "nl": "ROADMAP",
+        "es": "ROADMAP",
+        "fr": "ROADMAP",
+        "de": "ROADMAP",
+        "pl": "ROADMAP"
+      },
+      "heroLead": {
+        "en": "The path to digital liberation is paved with precise technical steps.",
+        "ru": "Путь к цифровому освобождению вымощен точными техническими шагами.",
+        "nl": "De weg naar digitale bevrijding is geplaveid met precieze technische stappen.",
+        "es": "El camino hacia la liberación digital está pavimentado con pasos técnicos precisos.",
+        "fr": "Le chemin vers la libération numérique est pavé de mesures techniques précises.",
+        "de": "Der Weg zur digitalen Befreiung ist mit präzisen technischen Schritten gepflastert.",
+        "pl": "Droga do cyfrowego wyzwolenia jest wybrukowana precyzyjnymi krokami technicznymi."
+      },
+      "phases": [
+        {
+          "quarter": {
+            "en": "Months 1-3",
+            "ru": "Месяцы 1-3",
+            "nl": "Maanden 1-3",
+            "es": "Meses 1-3",
+            "fr": "Mois 1-3",
+            "de": "Monate 1-3",
+            "pl": "Miesiące 1-3"
+          },
+          "title": {
+            "en": "Supranational Database Audit",
+            "ru": "Аудит наднациональных баз данных",
+            "nl": "Audit supranationale databanken",
+            "es": "Auditoría de bases de datos supranacionales",
+            "fr": "Audit des bases de données supranationales",
+            "de": "Audit supranationaler Datenbanken",
+            "pl": "Audyt ponadnarodowych баз данных"
+          },
+          "desc": {
+            "en": "Deep review of Interpol, FATF, and shared data systems for bias and abuse.",
+            "ru": "Глубокий обзор Интерпола, ФАТФ и общих систем данных на предмет предвзятости и злоупотреблений.",
+            "nl": "Diepgaande beoordeling van Interpol, FATF и gedeelde datasystemen op vooringenomenheid и misbruik.",
+            "es": "Revisión profunda de Interpol, FATF и sistemas de datos compartidos в поисках предвзятости и злоупотреблений.",
+            "fr": "Examen approfondi d’Interpol, du GAFI и des systèmes de données partagées для выявления предвзятости и злоупотреблений.",
+            "de": "Tiefgehende Überprüfung von Interpol, FATF и gemeinsamen Datensystemen на предмет предвзятости и злоупотреблений.",
+            "pl": "Dogłębna analiza Interpolu, FATF и wspólnych systemów данных под kątem uprzedzeń и надużyć."
+          },
+          "details": {
+            "en": "A flagship audit to identify where international security networks leak authority and enable political repression.",
+            "ru": "Флагманский аудит, чтобы выявить, где международные сети безопасности утрачивают власть и позволяют политические репрессии.",
+            "nl": "Een vlaggenschip-audit om te identificeren waar internationale beveiligingsnetwerken macht lekken и politieke repressie mogelijk maken.",
+            "es": "Una auditoría emblemática para identificar dónde las redes internacionales de seguridad фильтруют authority и позволяют репрессии.",
+            "fr": "Un audit phare pour identifier où les réseaux de sécurité internationaux laissent fuir l’autorité и позволяют репрессии.",
+            "de": "Ein Flaggschiff-Audit, um zu identifizieren, wo internationale Sicherheitsnetze Autorität verlieren и politisches Repression позволяют.",
+            "pl": "Flagowy аудит, чтобы выявить, где международные сети безопасности утрачивают власть и позволяют политические репрессии."
+          }
+        },
+        {
+          "quarter": {
+            "en": "Months 4-6",
+            "ru": "Месяцы 4-6",
+            "nl": "Maanden 4-6",
+            "es": "Meses 4-6",
+            "fr": "Mois 4-6",
+            "de": "Monate 4-6",
+            "pl": "Miesiące 4-6"
+          },
+          "title": {
+            "en": "Censorship Model Analysis",
+            "ru": "Анализ модели цензуры",
+            "nl": "Analyse van censuurmodellen",
+            "es": "Análisis de modelos de censura",
+            "fr": "Analyse des modèles de censure",
+            "de": "Analyse von Zensurmodellen",
+            "pl": "Analiza modeli cenzury"
+          },
+          "desc": {
+            "en": "Comparative research on how modern censorship patterns migrate into EU regulation.",
+            "ru": "Сравнительное исследование о том, как современные паттерны цензуры переходят в регулирование ЕС.",
+            "nl": "Vergelijkend onderzoek naar hoe moderne censuurpatronen migreren naar EU-regelgeving.",
+            "es": "Investigación comparativa sobre cómo los patrones de censura modernos migran a la regulación de la UE.",
+            "fr": "Recherche comparative sur la façon dont les schémas modernes de censure migrent vers la réglementation de l’UE.",
+            "de": "Vergleichende Forschung dazu, wie moderne Zensurmuster в EU-Regulierung мигрируют.",
+            "pl": "Сравнительное исследование о том, как современные паттерны цензуры переходят в регулирование ЕС."
+          },
+          "details": {
+            "en": "Analysis of policy language, enforcement mechanics and the risks of imported digital control.",
+            "ru": "Анализ языка политики, механизмов правоприменения и рисков импортированного цифрового контроля.",
+            "nl": "Analyse van beleidsformulering, handhavingsmechanismen и риски импортированного цифрового контроля.",
+            "es": "Análisis del lenguaje de políticas, mecanismos de aplicación и риски импортированного цифрового контроля.",
+            "fr": "Analyse du langage politique, des mécanismes d’application и риски импортированного цифрового контроля.",
+            "de": "Analyse von Richtliniensprache, Durchsetzungsmechanismen и рисков импортированного цифрового контроля.",
+            "pl": "Анализ языка политики, механизмов правоприменения и рисков импортированного цифрового контроля."
+          }
+        },
+        {
+          "quarter": {
+            "en": "Months 7-9",
+            "ru": "Месяцы 7-9",
+            "nl": "Maanden 7-9",
+            "es": "Meses 7-9",
+            "fr": "Mois 7-9",
+            "de": "Monate 7-9",
+            "pl": "Miesiące 7-9"
+          },
+          "title": {
+            "en": "Community Impact and Reporting",
+            "ru": "Воздействие на сообщество и отчеты",
+            "nl": "Gemeenschapsimpact en rapportage",
+            "es": "Impacto comunitario e informes",
+            "fr": "Impact communautaire et rapports",
+            "de": "Gemeinschaftsauswirkungen и отчеты",
+            "pl": "Wpływ на сообщество и отчеты"
+          },
+          "desc": {
+            "en": "Publishing findings, supporting civil society and testing outreach formats.",
+            "ru": "Публикация выводов, поддержка гражданского общества и тестирование форматов охвата.",
+            "nl": "Publicatie van bevindingen, ondersteuning van het maatschappelijk middenveld и тестирование форматов охвата.",
+            "es": "Publicación de hallazgos, apoyo a la sociedad civil и тестирование форматов охвата.",
+            "fr": "Publication des conclusions, soutien de la société civile и тестирование форматов охвата.",
+            "de": "Veröffentlichung von Erkenntnissen, Unterstützung der Zivilgesellschaft und Erprobung von Outreach-Formaten.",
+            "pl": "Publikacja wniosków, wsparcie dla społeczeństwa obywatelskiego и тестирование форматов охвата."
+          }
+        }
+      ],
+      "orgCommittee": {
+        "title": {
+          "en": "Organizational Committee",
+          "ru": "Организационный комитет",
+          "nl": "Organisatiecomité",
+          "es": "Comité organizador",
+          "fr": "Comité d'organisation",
+          "de": "Organisationskomitee",
+          "pl": "Komitet organizacyjny"
+        },
+        "structure": [
+          {
+            "name": {
+              "en": "The Board (Bestuur)",
+              "ru": "Правление (Bestuur)",
+              "nl": "Het Bestuur",
+              "es": "La Junta (Bestuur)",
+              "fr": "Le Conseil (Bestuur)",
+              "de": "Der Vorstand (Bestuur)",
+              "pl": "Zarząd (Bestuur)"
+            },
+            "desc": {
+              "en": "Supreme governing body making key decisions and managing assets.",
+              "ru": "Высший орган управления, принимающий ключевые решения.",
+              "nl": "Hoogste bestuursorgaan dat de belangrijkste beslissingen neemt.",
+              "es": "Órgano supremo de gobierno que toma decisiones clave.",
+              "fr": "Organe suprême de direction prenant les décisions clés.",
+              "de": "Oberstes Leitungsorgan, das wichtige Entscheidungen trifft.",
+              "pl": "Najwyższy organ zarządzający podejmujący kluczowe decyzje."
+            }
+          },
+          {
+            "name": {
+              "en": "Founders (Oprichters)",
+              "ru": "Учредители (Oprichters)",
+              "nl": "Oprichters",
+              "es": "Fundadores (Oprichters)",
+              "fr": "Fondateurs (Oprichters)",
+              "de": "Gründer (Oprichters)",
+              "pl": "Założyciele (Oprichters)"
+            },
+            "desc": {
+              "en": "They step out after creation but may retain rights to appoint the board.",
+              "ru": "Выходят из структуры после создания, сохраняя право назначения правления.",
+              "nl": "Zij treden uit na oprichting maar kunnen het recht behouden om het bestuur te benoemen.",
+              "es": "Se retiran tras la creación pero pueden conservar derechos de nombramiento.",
+              "fr": "Ils se retirent après la création mais peuvent conserver des droits de nomination.",
+              "de": "Sie scheiden nach der Gründung aus, behalten aber ggf. das Recht zur Vorstandsbestellung.",
+              "pl": "Wychodzą ze struktury po utworzeniu, zachowując prawo do mianowania zarządu."
+            }
+          },
+          {
+            "name": {
+              "en": "Management",
+              "ru": "Менеджмент / Исполнительный директор",
+              "nl": "Management",
+              "es": "Gestión",
+              "fr": "Direction",
+              "de": "Management",
+              "pl": "Zarządzanie"
+            },
+            "desc": {
+              "en": "Operational leadership and execution of strategic goals.",
+              "ru": "Оперативное управление и выполнение стратегических целей.",
+              "nl": "Operationele leiding en uitvoering van strategische doelen.",
+              "es": "Liderazgo operativo y ejecución de objetivos estratégicos.",
+              "fr": "Direction opérationnelle et exécution des objectifs stratégiques.",
+              "de": "Operative Führung und Umsetzung strategischer Ziele.",
+              "pl": "Zarządzanie operacyjne i realizacja celów strategicznych."
+            }
+          }
+        ]
+      },
+      "reports": {
+        "title": {
+          "en": "Public Reports",
+          "ru": "Публичные отчеты",
+          "nl": "Publieke rapporten",
+          "es": "Informes públicos",
+          "fr": "Rapports publics",
+          "de": "Öffentliche Berichte",
+          "pl": "Raporty publiczne"
+        },
+        "items": [
+          {
+            "period": "Q3 2026",
+            "url": "#"
+          },
+          {
+            "period": "Q2 2026",
+            "url": "#"
+          }
+        ]
+      },
+      "sponsors": {
+        "title": {
+          "en": "For Sponsors",
+          "ru": "Для спонсоров",
+          "nl": "Voor sponsoren",
+          "es": "Para patrocinadores",
+          "fr": "Pour les sponsors",
+          "de": "Für Sponsoren",
+          "pl": "Dla sponsorów"
+        },
+        "lead": {
+          "en": "Strategic support for institutional digital rights monitoring.",
+          "ru": "Стратегическая поддержка институционального мониторинга цифровых прав.",
+          "nl": "Strategische ondersteuning voor institutionele monitoring van digitale rechten.",
+          "es": "Apoyo estratégico para el monitoreo institucional de derechos digitales.",
+          "fr": "Soutien stratégique au suivi institutionnel des droits numériques.",
+          "de": "Strategische Unterstützung für das institutionelle Monitoring digitaler Rechte.",
+          "pl": "Strategiczne wsparcie dla instytucjonalnego monitoringu praw cyfrowych."
+        }
+      },
+      "ogTitle": {
+        "en": "Roadmap - Hyperboloid Stichting",
+        "ru": "План - Hyperboloid Stichting",
+        "nl": "Routekaart - Hyperboloid Stichting",
+        "es": "Hoja de ruta - Hyperboloid Stichting",
+        "fr": "Feuille de route - Hyperboloid Stichting",
+        "de": "Fahrplan - Hyperboloid Stiftung",
+        "pl": "Mapa drogowa - Hyperboloid Stichting"
+      },
+      "ogDescription": {
+        "en": "Project timeline, milestones and governance for the next phase of digital rights work.",
+        "ru": "График проектов, этапы и управление для следующей фазы работы по цифровым правам.",
+        "nl": "Projecttijdlijn, mijlpalen en governance voor de volgende fase van het werk aan digitale rechten.",
+        "es": "Cronograma de proyectos, hitos y gobernanza para la próxima fase del trabajo en derechos digitales.",
+        "fr": "Calendrier de projet, jalons et gouvernance pour la prochaine phase du travail sur les droits numériques.",
+        "de": "Projektzeitplan, Meilensteine und Governance für die nächste Phase der digitalen Rechtearbeit.",
+        "pl": "Harmonogram projektu, kamienie milowe i zarządzanie на следующий этап работы по цифровым правам."
+      }
+    },
+    "governance": {
+      "title": {
+        "en": "Governance - Hyperboloid Stichting",
+        "ru": "Управление - Hyperboloid Stichting",
+        "nl": "Bestuur - Hyperboloid Stichting",
+        "es": "Gobernanza - Hyperboloid Stichting",
+        "fr": "Gouvernance - Hyperboloid Stichting",
+        "de": "Governance - Hyperboloid Stiftung",
+        "pl": "Zarządzanie - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Foundation structure, ethics and transparency for our digital rights mission.",
+        "ru": "Структура фонда, этика и прозрачность для нашей миссии цифровых прав.",
+        "nl": "Fondstructuur, ethiek en transparantie voor onze missie digitale rechten.",
+        "es": "Estructura de la fundación, ética y transparencia para nuestra misión de derechos digitales.",
+        "fr": "Structure de la fondation, этика и прозрачность для нашей миссии цифровых прав.",
+        "de": "Stiftungsstruktur, Ethik und Transparenz для нашей миссии цифровых прав.",
+        "pl": "Struktura fundacji, etyka i przejrzystość для нашей миссии цифровых прав."
+      },
+      "heroTitle": {
+        "en": "Governance",
+        "ru": "Управление",
+        "nl": "Bestuur",
+        "es": "Gobernanza",
+        "fr": "Gouvernance",
+        "de": "Governance",
+        "pl": "Zarządzanie"
+      },
+      "heroLead": {
+        "en": "Independent trustees and ethical oversight keep our research accountable.",
+        "ru": "Независимые попечители и этический надзор делают наши исследования подотчетными.",
+        "nl": "Onafhankelijke curatoren и ethisch toezicht houden ons onderzoek verantwoordelijk.",
+        "es": "Los fideicomisarios independientes и la supervisión ética mantienen nuestra investigación responsable.",
+        "fr": "Des administrateurs indépendants и une supervision éthique rendent nos recherches responsables.",
+        "de": "Unabhängige Treuhänder и ethische Aufsicht machen unsere Forschung rechenschaftspflichtig.",
+        "pl": "Niezależni powiernicy и надзор etyczny обеспечивают ответственность наших исследований."
+      },
+      "cards": [
+        {
+          "title": {
+            "en": "The Board",
+            "ru": "Совет",
+            "nl": "Het bestuur",
+            "es": "El consejo",
+            "fr": "Le conseil",
+            "de": "Der Vorstand",
+            "pl": "Zarząd"
+          },
+          "desc": {
+            "en": "Independent experts provide oversight while preserving research autonomy.",
+            "ru": "Независимые эксперты обеспечивают надзор, сохраняя автономию исследований.",
+            "nl": "Onafhankelijke experts bieden toezicht и behouden tegelijkertijd onderzoeksautonomie.",
+            "es": "Expertos independientes brindan supervisión и preservan la autonomía investigadora.",
+            "fr": "Des experts indépendants assurent la supervision tout en preservant l’autonomie de recherche.",
+            "de": "Unabhängige Experten bieten Aufsicht и wahren gleichzeitig die Forschungsautonomie.",
+            "pl": "Niezależni eksperci zapewniają надзор, сохраняя автономию исследований."
+          }
+        },
+        {
+          "title": {
+            "en": "Ethics Committee",
+            "ru": "Комитет по этике",
+            "nl": "Ethische commissie",
+            "es": "Comité de ética",
+            "fr": "Comité d’éthique",
+            "de": "Ethikausschuss",
+            "pl": "Komitet etyczny"
+          },
+          "desc": {
+            "en": "Each project undergoes an ethical review before publication.",
+            "ru": "Каждый проект проходит этический обзор перед публикацией.",
+            "nl": "Elk project ondergaat een ethische beoordeling voor publicatie.",
+            "es": "Cada proyecto pasa una revisión ética antes de la publicación.",
+            "fr": "Chaque projet fait l’objet d’un examen éthique avant publication.",
+            "de": "Jedes Projekt durchläuft vor der Veröffentlichung eine ethische Überprüfung.",
+            "pl": "Каждый проект проходит этический обзор перед публикацией."
+          }
+        },
+        {
+          "title": {
+            "en": "Legal Compliance",
+            "ru": "Правовое соответствие",
+            "nl": "Juridische naleving",
+            "es": "Cumplimiento legal",
+            "fr": "Conformité juridique",
+            "de": "Rechtliche Compliance",
+            "pl": "Zgodność prawna"
+          },
+          "desc": {
+            "en": "Registered in the Netherlands and governed by EU non-profit law.",
+            "ru": "Зарегистрирован в Нидерландах и действует в соответствии с законодательством ЕС для некоммерческих организаций.",
+            "nl": "Geregistreerd in Nederland en gereguleerd door EU-wetgeving voor non-profits.",
+            "es": "Registrado en los Países Bajos и gobernado por la legislación de ONG de la UE.",
+            "fr": "Enregistré aux Pays-Bas и régi par la législation européenne sur les associations à but non lucratif.",
+            "de": "In den Niederlanden registriert und durch EU-Non-Profit-Recht geregelt.",
+            "pl": "Zarejestrowana w Holandii и действует в соответствии с законодательством ЕС."
+          }
+        }
+      ],
+      "orgCommittee": {
+        "title": {
+          "en": "Organizational Committee",
+          "ru": "Организационный комитет",
+          "nl": "Organisatiecomité",
+          "es": "Comité organizador",
+          "fr": "Comité d'organisation",
+          "de": "Organisationskomitee",
+          "pl": "Komitet organizacyjny"
+        },
+        "structure": [
+          {
+            "name": {
+              "en": "The Board (Bestuur)",
+              "ru": "Правление (Bestuur)",
+              "nl": "Het Bestuur",
+              "es": "La Junta (Bestuur)",
+              "fr": "Le Conseil (Bestuur)",
+              "de": "Der Vorstand (Bestuur)",
+              "pl": "Zarząd (Bestuur)"
+            },
+            "desc": {
+              "en": "Supreme governing body making key decisions and managing assets.",
+              "ru": "Высший орган управления, принимающий ключевые решения.",
+              "nl": "Hoogste bestuursorgaan dat de belangrijkste beslissingen neemt.",
+              "es": "Órgano supremo de gobierno que toma decisiones clave.",
+              "fr": "Organe suprême de direction prenant les décisions clés.",
+              "de": "Oberstes Leitungsorgan, das wichtige Entscheidungen trifft.",
+              "pl": "Najwyższy organ zarządzający podejmujący kluczowe decyzje."
+            }
+          },
+          {
+            "name": {
+              "en": "Founders (Oprichters)",
+              "ru": "Учредители (Oprichters)",
+              "nl": "Oprichters",
+              "es": "Fundadores (Oprichters)",
+              "fr": "Fondateurs (Oprichters)",
+              "de": "Gründer (Oprichters)",
+              "pl": "Założyciele (Oprichters)"
+            },
+            "desc": {
+              "en": "They step out after creation but may retain rights to appoint the board.",
+              "ru": "Выходят из структуры после создания, сохраняя право назначения правления.",
+              "nl": "Zij treden uit na oprichting maar kunnen het recht behouden om het bestuur te benoemen.",
+              "es": "Se retiran tras la creación pero pueden conservar derechos de nombramiento.",
+              "fr": "Ils se retirent après la création mais peuvent conserver des droits de nomination.",
+              "de": "Sie scheiden nach der Gründung aus, behalten aber ggf. das Recht zur Vorstandsbestellung.",
+              "pl": "Wychodzą ze struktury po utworzeniu, zachowując prawo do mianowania zarządu."
+            }
+          },
+          {
+            "name": {
+              "en": "Management",
+              "ru": "Менеджмент / Исполнительный директор",
+              "nl": "Management",
+              "es": "Gestión",
+              "fr": "Direction",
+              "de": "Management",
+              "pl": "Zarządzanie"
+            },
+            "desc": {
+              "en": "Operational leadership and execution of strategic goals.",
+              "ru": "Оперативное управление и выполнение стратегических целей.",
+              "nl": "Operationele leiding en uitvoering van strategische doelen.",
+              "es": "Liderazgo operativo y ejecución de objetivos estratégicos.",
+              "fr": "Direction opérationnelle et exécution des objectifs stratégiques.",
+              "de": "Operative Führung und Umsetzung strategischer Ziele.",
+              "pl": "Zarządzanie operacyjne i realizacja celów strategicznych."
+            }
+          }
+        ]
+      },
+      "reports": {
+        "title": {
+          "en": "Public Reports",
+          "ru": "Публичные отчеты",
+          "nl": "Publieke rapporten",
+          "es": "Informes públicos",
+          "fr": "Rapports publics",
+          "de": "Öffentliche Berichte",
+          "pl": "Raporty publiczne"
+        },
+        "items": [
+          {
+            "period": "Q3 2026",
+            "url": "#"
+          },
+          {
+            "period": "Q2 2026",
+            "url": "#"
+          }
+        ]
+      },
+      "sponsors": {
+        "title": {
+          "en": "For Sponsors",
+          "ru": "Для спонсоров",
+          "nl": "Voor sponsoren",
+          "es": "Para patrocinadores",
+          "fr": "Pour les sponsors",
+          "de": "Für Sponsoren",
+          "pl": "Dla sponsorów"
+        },
+        "lead": {
+          "en": "Strategic support for institutional digital rights monitoring.",
+          "ru": "Стратегическая поддержка институционального мониторинга цифровых прав.",
+          "nl": "Стратегическая поддержка институционального мониторинга цифровых прав.",
+          "es": "Apoyo estratégico para el monitoreo institucional de derechos digitales.",
+          "fr": "Soutien stratégique au suivi institutionnel des droits numériques.",
+          "de": "Strategische Unterstützung für das institutionelle Monitoring digitaler Rechte.",
+          "pl": "Strategiczne wsparcie для институционального мониторинга прав цифровых."
+        }
+      },
+      "ogTitle": {
+        "en": "Governance - Hyperboloid Stichting",
+        "ru": "Управление - Hyperboloid Stichting",
+        "nl": "Bestuur - Hyperboloid Stichting",
+        "es": "Gobernanza - Hyperboloid Stichting",
+        "fr": "Gouvernance - Hyperboloid Stichting",
+        "de": "Governance - Hyperboloid Stiftung",
+        "pl": "Zarządzanie - Hyperboloid Stichting"
+      },
+      "ogDescription": {
+        "en": "Foundation structure, ethics and transparency for our digital rights mission.",
+        "ru": "Структура фонда, этика и прозрачность для нашей миссии цифровых прав.",
+        "nl": "Fondstructuur, ethiek en transparantie voor onze missie digitale rechten.",
+        "es": "Estructura de la fundación, ética y transparencia para nuestra misión de derechos digitales.",
+        "fr": "Structure de la fondation, этика и прозрачность для нашей миссии цифровых прав.",
+        "de": "Stiftungsstruktur, Ethik und Transparenz для нашей миссии цифровых прав.",
+        "pl": "Struktura fundacji, etyka i przejrzystość для нашей миссии цифровых прав."
+      }
+    },
+    "contact": {
+      "title": {
+        "en": "Contact - Hyperboloid Stichting",
+        "ru": "Контакты - Hyperboloid Stichting",
+        "nl": "Contact - Hyperboloid Stichting",
+        "es": "Contacto - Hyperboloid Stichting",
+        "fr": "Contact - Hyperboloid Stichting",
+        "de": "Kontakt - Hyperboloid Stiftung",
+        "pl": "Kontakt - Hyperboloid Stichting"
+      },
+      "description": {
+        "en": "Reach out to Hyperboloid for research requests, partnership proposals, and donations.",
+        "ru": "Свяжитесь с Hyperboloid для запросов на исследования, партнерства и пожертвования.",
+        "nl": "Neem contact op met Hyperboloid для onderzoeksaanvragen, partnerschappen и donaties.",
+        "es": "Contacta con Hyperboloid para solicitudes de investigación, propuestas de colaboración и donaciones.",
+        "fr": "Contactez Hyperboloid pour des demandes de recherche, des propositions de partenariat и des dons.",
+        "de": "Kontaktieren Sie Hyperboloid für Forschungsanfragen, Partnerschaftsvorschläge и Spenden.",
+        "pl": "Свяжитесь с Hyperboloid для запросов на исследования, партнерства и пожертвования."
+      },
+      "heroTitle": {
+        "en": "Contact",
+        "ru": "Контакты",
+        "nl": "Contact",
+        "es": "Contacto",
+        "fr": "Contact",
+        "de": "Kontakt",
+        "pl": "Kontakt"
+      },
+      "heroLead": {
+        "en": "Our global hubs and secure channels are available for civic cooperation.",
+        "ru": "Наши глобальные центры и защищенные каналы доступны для гражданского сотрудничества.",
+        "nl": "Onze wereldwijde hubs и beveiligde kanalen zijn beschikbaar voor burgerlijke samenwerking.",
+        "es": "Nuestros centros globales и canales seguros están disponibles для la cooperación cívica.",
+        "fr": "Nos centres mondiaux и canaux sécurisés sont disponibles для la coopération civique.",
+        "de": "Unsere globalen Zentren и sicheren Kanäle stehen для zivile Zusammenarbeit zur Verfügung.",
+        "pl": "Наши глобальные центры и защищенные каналы доступны для гражданского сотрудничества."
+      },
+      "form": {
+        "identity": {
+          "en": "Identity",
+          "ru": "Имя",
+          "nl": "Identiteit",
+          "es": "Identidad",
+          "fr": "Identité",
+          "de": "Identität",
+          "pl": "Tożsamość"
+        },
+        "email": {
+          "en": "Email / PGP",
+          "ru": "Электронная почта / PGP",
+          "nl": "E-mail / PGP",
+          "es": "Correo / PGP",
+          "fr": "Email / PGP",
+          "de": "E-Mail / PGP",
+          "pl": "Email / PGP"
+        },
+        "priority": {
+          "en": "Priority",
+          "ru": "Приоритет",
+          "nl": "Prioriteit",
+          "es": "Prioridad",
+          "fr": "Priorité",
+          "de": "Priorität",
+          "pl": "Priorytet"
+        },
+        "message": {
+          "en": "Manifesto / Message",
+          "ru": "Сообщение",
+          "nl": "Boodschap",
+          "es": "Mensaje",
+          "fr": "Message",
+          "de": "Nachricht",
+          "pl": "Wiadomość"
+        },
+        "send": {
+          "en": "Transmit",
+          "ru": "Передать",
+          "nl": "Verzenden",
+          "es": "Transmitir",
+          "fr": "Transmettre",
+          "de": "Senden",
+          "pl": "Przesłać"
+        }
+      },
+      "ogTitle": {
+        "en": "Contact - Hyperboloid Stichting",
+        "ru": "Контакты - Hyperboloid Stichting",
+        "nl": "Contact - Hyperboloid Stichting",
+        "es": "Contacto - Hyperboloid Stichting",
+        "fr": "Contact - Hyperboloid Stichting",
+        "de": "Kontakt - Hyperboloid Stiftung",
+        "pl": "Kontakt - Hyperboloid Stichting"
+      },
+      "ogDescription": {
+        "en": "Reach out to Hyperboloid for research requests, partnership proposals, and donations.",
+        "ru": "Свяжитесь с Hyperboloid для запросов на исследования, партнерства и пожертвования.",
+        "nl": "Neem contact op met Hyperboloid для onderzoeksaanvragen, partnerschappen и donaties.",
+        "es": "Contacta con Hyperboloid para solicitudes de investigación, propuestas de colaboración и donaciones.",
+        "fr": "Contactez Hyperboloid pour des demandes de recherche, des propositions de partenariat и des dons.",
+        "de": "Kontaktieren Sie Hyperboloid für Forschungsanfragen, Partnerschaftsvorschläge и Spenden.",
+        "pl": "Свяжитесь с Hyperboloid для запросов на исследования, партнерства и пожертвования."
+      }
+    }
+  },
+  "internalPages": {
+    "research": {
+      "en": "Research center",
+      "ru": "Центр исследований",
+      "nl": "Onderzoekscentrum",
+      "es": "Centro de investigación",
+      "fr": "Centre de recherche",
+      "de": "Forschungszentrum",
+      "pl": "Centrum badań"
+    },
+    "publications": {
+      "en": "Publication archive",
+      "ru": "Архив публикаций",
+      "nl": "Publicatie-archief",
+      "es": "Archivo de publicaciones",
+      "fr": "Archive des publications",
+      "de": "Publikationsarchiv",
+      "pl": "Archiwum publikacji"
+    },
+    "roadmap": {
+      "en": "Roadmap and milestones",
+      "ru": "План и этапы",
+      "nl": "Routekaart en mijlpalen",
+      "es": "Hoja de ruta e hitos",
+      "fr": "Feuille de route et jalons",
+      "de": "Fahrplan und Meilensteine",
+      "pl": "Mapa drogowa i kamienie milowe"
+    },
+    "governance": {
+      "en": "Governance and accountability",
+      "ru": "Управление и подотчетность",
+      "nl": "Bestuur en verantwoording",
+      "es": "Gobernanza y rendición de cuentas",
+      "fr": "Gouvernance et redevabilité",
+      "de": "Governance und Rechenschaft",
+      "pl": "Zarządzanie i rozliczalność"
+    },
+    "contact": {
+      "en": "Contact and participation",
+      "ru": "Контакты и участие",
+      "nl": "Contact en deelname",
+      "es": "Contacto and participación",
+      "fr": "Contact et participation",
+      "de": "Kontakt und Beteiligung",
+      "pl": "Kontakt i udział"
+    }
+  },
+  "ui": {
+    "homeLabel": {
+      "en": "Home",
+      "ru": "Главная",
+      "nl": "Home",
+      "es": "Inicio",
+      "fr": "Accueil",
+      "de": "Start",
+      "pl": "Strona główna"
+    },
+    "gateway": {
+      "title": {
+        "en": "Choose language",
+        "ru": "Выберите язык",
+        "nl": "Kies taal",
+        "es": "Elige idioma",
+        "fr": "Choisissez la langue",
+        "de": "Sprache wählen",
+        "pl": "Wybierz język"
+      },
+      "pageTitle": "Hyperboloid Language Gateway"
+    },
+    "home": {
+      "siteTitle": {
+        "en": "Hyperboloid Foundation",
+        "ru": "Фонд Hyperboloid",
+        "nl": "Hyperboloid Stichting",
+        "es": "Fundación Hyperboloid",
+        "fr": "Fondation Hyperboloid",
+        "de": "Hyperboloid Stiftung",
+        "pl": "Fundacja Hyperboloid"
+      },
+      "internalNavigation": {
+        "en": "Internal navigation",
+        "ru": "Внутренняя навигация",
+        "nl": "Interne navigatie",
+        "es": "Navegación interna",
+        "fr": "Navigation interne",
+        "de": "Interne Navigation",
+        "pl": "Nawigacja wewnętrzna"
+      },
+      "editorialHeading": {
+        "en": "Editorial",
+        "ru": "Редакционная позиция",
+        "nl": "Redactioneel",
+        "es": "Editorial",
+        "fr": "Éditorial",
+        "de": "Redaktion",
+        "pl": "Redakcja"
+      }
+    },
+    "internal": {
+      "apiHeading": {
+        "en": "API",
+        "ru": "API",
+        "nl": "API",
+        "es": "API",
+        "fr": "API",
+        "de": "API",
+        "pl": "API"
+      },
+      "apiDescription": {
+        "en": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "ru": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "nl": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "es": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "fr": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "de": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session",
+        "pl": "POST /api/subscriptions · POST /api/research-requests · POST /api/sponsorship-requests · POST /api/quarterly-reports/requests · POST /api/donations/stripe-checkout-session"
+      }
+    },
+    "footer": {
+      "contacts": {
+        "en": "Contact: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "ru": "Контакты: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "nl": "Contact: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "es": "Contacto: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "fr": "Contact : research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "de": "Kontakt: research@hyperboloid.foundation · reports@hyperboloid.foundation",
+        "pl": "Kontakt: research@hyperboloid.foundation · reports@hyperboloid.foundation"
+      },
+      "copyright": {
+        "en": "© 2026 Hyperboloid",
+        "ru": "© 2026 Hyperboloid",
+        "nl": "© 2026 Hyperboloid",
+        "es": "© 2026 Hyperboloid",
+        "fr": "© 2026 Hyperboloid",
+        "de": "© 2026 Hyperboloid",
+        "pl": "© 2026 Hyperboloid"
+      }
+    },
+    "brand": "Hyperboloid"
+  }
+}

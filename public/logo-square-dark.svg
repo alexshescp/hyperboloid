@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+    <rect width="100%" height="100%" fill="transparent"/>
+    <g transform="translate(200, 160) scale(1.2)">
+    <defs>
+        
+        <linearGradient id="hyperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#991b1b" />
+            <stop offset="50%" stop-color="#dc2626" />
+            <stop offset="100%" stop-color="#b91c1c" />
+        </linearGradient>
+        
+        <filter id="glow"><feGaussianBlur stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <g transform="translate(-100, -105)" stroke="url(#hyperGrad)" fill="none" opacity="0.9" filter="url(#glow)">
+        <g stroke-width="1.2">
+            <ellipse cx="100" cy="30.00" rx="80.00" ry="20.00" />
+<ellipse cx="100" cy="38.50" rx="75.47" ry="18.87" />
+<ellipse cx="100" cy="47.00" rx="70.93" ry="17.73" />
+<ellipse cx="100" cy="55.50" rx="66.40" ry="16.60" />
+<ellipse cx="100" cy="64.00" rx="61.87" ry="15.47" />
+<ellipse cx="100" cy="72.50" rx="57.33" ry="14.33" />
+<ellipse cx="100" cy="81.00" rx="52.80" ry="13.20" />
+<ellipse cx="100" cy="89.50" rx="48.27" ry="12.07" />
+<ellipse cx="100" cy="98.00" rx="43.73" ry="10.93" />
+<ellipse cx="100" cy="106.50" rx="40.80" ry="10.20" />
+<ellipse cx="100" cy="115.00" rx="45.33" ry="11.33" />
+<ellipse cx="100" cy="123.50" rx="49.87" ry="12.47" />
+<ellipse cx="100" cy="132.00" rx="54.40" ry="13.60" />
+<ellipse cx="100" cy="140.50" rx="58.93" ry="14.73" />
+<ellipse cx="100" cy="149.00" rx="63.47" ry="15.87" />
+<ellipse cx="100" cy="157.50" rx="68.00" ry="17.00" />
+<ellipse cx="100" cy="166.00" rx="72.53" ry="18.13" />
+<ellipse cx="100" cy="174.50" rx="77.07" ry="19.27" />
+        </g>
+        <g stroke-width="1.8">
+            <line x1="180.00" y1="30" x2="60.00" y2="180" />
+<line x1="178.78" y1="30" x2="48.58" y2="180" />
+<line x1="175.18" y1="30" x2="38.72" y2="180" />
+<line x1="169.28" y1="30" x2="30.72" y2="180" />
+<line x1="161.28" y1="30" x2="24.82" y2="180" />
+<line x1="151.42" y1="30" x2="21.22" y2="180" />
+<line x1="140.00" y1="30" x2="20.00" y2="180" />
+<line x1="127.36" y1="30" x2="21.22" y2="180" />
+<line x1="113.89" y1="30" x2="24.82" y2="180" />
+<line x1="100.00" y1="30" x2="30.72" y2="180" />
+<line x1="86.11" y1="30" x2="38.72" y2="180" />
+<line x1="72.64" y1="30" x2="48.58" y2="180" />
+<line x1="60.00" y1="30" x2="60.00" y2="180" />
+<line x1="48.58" y1="30" x2="72.64" y2="180" />
+<line x1="38.72" y1="30" x2="86.11" y2="180" />
+<line x1="30.72" y1="30" x2="100.00" y2="180" />
+<line x1="24.82" y1="30" x2="113.89" y2="180" />
+<line x1="21.22" y1="30" x2="127.36" y2="180" />
+<line x1="20.00" y1="30" x2="140.00" y2="180" />
+<line x1="21.22" y1="30" x2="151.42" y2="180" />
+<line x1="24.82" y1="30" x2="161.28" y2="180" />
+<line x1="30.72" y1="30" x2="169.28" y2="180" />
+<line x1="38.72" y1="30" x2="175.18" y2="180" />
+<line x1="48.58" y1="30" x2="178.78" y2="180" />
+<line x1="60.00" y1="30" x2="180.00" y2="180" />
+<line x1="72.64" y1="30" x2="178.78" y2="180" />
+<line x1="86.11" y1="30" x2="175.18" y2="180" />
+<line x1="100.00" y1="30" x2="169.28" y2="180" />
+<line x1="113.89" y1="30" x2="161.28" y2="180" />
+<line x1="127.36" y1="30" x2="151.42" y2="180" />
+<line x1="140.00" y1="30" x2="140.00" y2="180" />
+<line x1="151.42" y1="30" x2="127.36" y2="180" />
+<line x1="161.28" y1="30" x2="113.89" y2="180" />
+<line x1="169.28" y1="30" x2="100.00" y2="180" />
+<line x1="175.18" y1="30" x2="86.11" y2="180" />
+<line x1="178.78" y1="30" x2="72.64" y2="180" />
+        </g>
+    </g>
+    </g>
+    
+        <text x="200" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">HYPERBOLOID</text>
+        <text x="200" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#9ca3af" text-anchor="middle" letter-spacing="3">DIGITAL HUMAN RIGHTS</text>
+        
+</svg>

@@ -1,0 +1,4 @@
+Contact: security@hyperboloid.foundation
+Expires: 2027-12-31T23:59:00.000Z
+Preferred-Languages: en, ru, nl
+Canonical: https://hyperboloid.foundation/.well-known/security.txt
